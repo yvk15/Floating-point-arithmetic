@@ -1,0 +1,470 @@
+Analysis & Synthesis report for ks_adder
+Tue Nov 25 18:52:56 2025
+Quartus Prime Version 20.1.1 Build 720 11/11/2020 SJ Lite Edition
+
+
+---------------------
+; Table of Contents ;
+---------------------
+  1. Legal Notice
+  2. Analysis & Synthesis Summary
+  3. Analysis & Synthesis Settings
+  4. Parallel Compilation
+  5. Analysis & Synthesis Source Files Read
+  6. Analysis & Synthesis Resource Usage Summary
+  7. Analysis & Synthesis Resource Utilization by Entity
+  8. General Register Statistics
+  9. Port Connectivity Checks: "layer16:u_l16"
+ 10. Port Connectivity Checks: "layer8:u_l8"
+ 11. Port Connectivity Checks: "layer4:u_l4"
+ 12. Post-Synthesis Netlist Statistics for Top Partition
+ 13. Elapsed Time Per Partition
+ 14. Analysis & Synthesis Messages
+
+
+
+----------------
+; Legal Notice ;
+----------------
+Copyright (C) 2020  Intel Corporation. All rights reserved.
+Your use of Intel Corporation's design tools, logic functions 
+and other software and tools, and any partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Intel Program License 
+Subscription Agreement, the Intel Quartus Prime License Agreement,
+the Intel FPGA IP License Agreement, or other applicable license
+agreement, including, without limitation, that your use is for
+the sole purpose of programming logic devices manufactured by
+Intel and sold by Intel or its authorized distributors.  Please
+refer to the applicable agreement for further details, at
+https://fpgasoftware.intel.com/eula.
+
+
+
++----------------------------------------------------------------------------------+
+; Analysis & Synthesis Summary                                                     ;
++------------------------------------+---------------------------------------------+
+; Analysis & Synthesis Status        ; Successful - Tue Nov 25 18:52:56 2025       ;
+; Quartus Prime Version              ; 20.1.1 Build 720 11/11/2020 SJ Lite Edition ;
+; Revision Name                      ; ks_adder                                    ;
+; Top-level Entity Name              ; ks24                                        ;
+; Family                             ; MAX 10                                      ;
+; Total logic elements               ; 235                                         ;
+;     Total combinational functions  ; 178                                         ;
+;     Dedicated logic registers      ; 86                                          ;
+; Total registers                    ; 86                                          ;
+; Total pins                         ; 88                                          ;
+; Total virtual pins                 ; 0                                           ;
+; Total memory bits                  ; 0                                           ;
+; Embedded Multiplier 9-bit elements ; 0                                           ;
+; Total PLLs                         ; 0                                           ;
+; UFM blocks                         ; 0                                           ;
+; ADC blocks                         ; 0                                           ;
++------------------------------------+---------------------------------------------+
+
+
++------------------------------------------------------------------------------------------------------------+
+; Analysis & Synthesis Settings                                                                              ;
++------------------------------------------------------------------+--------------------+--------------------+
+; Option                                                           ; Setting            ; Default Value      ;
++------------------------------------------------------------------+--------------------+--------------------+
+; Device                                                           ; 10M08DAF484C8G     ;                    ;
+; Top-level entity name                                            ; ks24               ; ks_adder           ;
+; Family name                                                      ; MAX 10             ; Cyclone V          ;
+; Use smart compilation                                            ; Off                ; Off                ;
+; Enable parallel Assembler and Timing Analyzer during compilation ; On                 ; On                 ;
+; Enable compact report table                                      ; Off                ; Off                ;
+; Restructure Multiplexers                                         ; Auto               ; Auto               ;
+; Create Debugging Nodes for IP Cores                              ; Off                ; Off                ;
+; Preserve fewer node names                                        ; On                 ; On                 ;
+; Intel FPGA IP Evaluation Mode                                    ; Enable             ; Enable             ;
+; Verilog Version                                                  ; Verilog_2001       ; Verilog_2001       ;
+; VHDL Version                                                     ; VHDL_1993          ; VHDL_1993          ;
+; State Machine Processing                                         ; Auto               ; Auto               ;
+; Safe State Machine                                               ; Off                ; Off                ;
+; Extract Verilog State Machines                                   ; On                 ; On                 ;
+; Extract VHDL State Machines                                      ; On                 ; On                 ;
+; Ignore Verilog initial constructs                                ; Off                ; Off                ;
+; Iteration limit for constant Verilog loops                       ; 5000               ; 5000               ;
+; Iteration limit for non-constant Verilog loops                   ; 250                ; 250                ;
+; Add Pass-Through Logic to Inferred RAMs                          ; On                 ; On                 ;
+; Infer RAMs from Raw Logic                                        ; On                 ; On                 ;
+; Parallel Synthesis                                               ; On                 ; On                 ;
+; DSP Block Balancing                                              ; Auto               ; Auto               ;
+; NOT Gate Push-Back                                               ; On                 ; On                 ;
+; Power-Up Don't Care                                              ; On                 ; On                 ;
+; Remove Redundant Logic Cells                                     ; Off                ; Off                ;
+; Remove Duplicate Registers                                       ; On                 ; On                 ;
+; Ignore CARRY Buffers                                             ; Off                ; Off                ;
+; Ignore CASCADE Buffers                                           ; Off                ; Off                ;
+; Ignore GLOBAL Buffers                                            ; Off                ; Off                ;
+; Ignore ROW GLOBAL Buffers                                        ; Off                ; Off                ;
+; Ignore LCELL Buffers                                             ; Off                ; Off                ;
+; Ignore SOFT Buffers                                              ; On                 ; On                 ;
+; Limit AHDL Integers to 32 Bits                                   ; Off                ; Off                ;
+; Optimization Technique                                           ; Balanced           ; Balanced           ;
+; Carry Chain Length                                               ; 70                 ; 70                 ;
+; Auto Carry Chains                                                ; On                 ; On                 ;
+; Auto Open-Drain Pins                                             ; On                 ; On                 ;
+; Perform WYSIWYG Primitive Resynthesis                            ; Off                ; Off                ;
+; Auto ROM Replacement                                             ; On                 ; On                 ;
+; Auto RAM Replacement                                             ; On                 ; On                 ;
+; Auto DSP Block Replacement                                       ; On                 ; On                 ;
+; Auto Shift Register Replacement                                  ; Auto               ; Auto               ;
+; Allow Shift Register Merging across Hierarchies                  ; Auto               ; Auto               ;
+; Auto Clock Enable Replacement                                    ; On                 ; On                 ;
+; Strict RAM Replacement                                           ; Off                ; Off                ;
+; Allow Synchronous Control Signals                                ; On                 ; On                 ;
+; Force Use of Synchronous Clear Signals                           ; Off                ; Off                ;
+; Auto RAM Block Balancing                                         ; On                 ; On                 ;
+; Auto RAM to Logic Cell Conversion                                ; Off                ; Off                ;
+; Auto Resource Sharing                                            ; Off                ; Off                ;
+; Allow Any RAM Size For Recognition                               ; Off                ; Off                ;
+; Allow Any ROM Size For Recognition                               ; Off                ; Off                ;
+; Allow Any Shift Register Size For Recognition                    ; Off                ; Off                ;
+; Use LogicLock Constraints during Resource Balancing              ; On                 ; On                 ;
+; Ignore translate_off and synthesis_off directives                ; Off                ; Off                ;
+; Timing-Driven Synthesis                                          ; On                 ; On                 ;
+; Report Parameter Settings                                        ; On                 ; On                 ;
+; Report Source Assignments                                        ; On                 ; On                 ;
+; Report Connectivity Checks                                       ; On                 ; On                 ;
+; Ignore Maximum Fan-Out Assignments                               ; Off                ; Off                ;
+; Synchronization Register Chain Length                            ; 2                  ; 2                  ;
+; Power Optimization During Synthesis                              ; Normal compilation ; Normal compilation ;
+; HDL message level                                                ; Level2             ; Level2             ;
+; Suppress Register Optimization Related Messages                  ; Off                ; Off                ;
+; Number of Removed Registers Reported in Synthesis Report         ; 5000               ; 5000               ;
+; Number of Swept Nodes Reported in Synthesis Report               ; 5000               ; 5000               ;
+; Number of Inverted Registers Reported in Synthesis Report        ; 100                ; 100                ;
+; Clock MUX Protection                                             ; On                 ; On                 ;
+; Auto Gated Clock Conversion                                      ; Off                ; Off                ;
+; Block Design Naming                                              ; Auto               ; Auto               ;
+; SDC constraint protection                                        ; Off                ; Off                ;
+; Synthesis Effort                                                 ; Auto               ; Auto               ;
+; Shift Register Replacement - Allow Asynchronous Clear Signal     ; On                 ; On                 ;
+; Pre-Mapping Resynthesis Optimization                             ; Off                ; Off                ;
+; Analysis & Synthesis Message Level                               ; Medium             ; Medium             ;
+; Disable Register Merging Across Hierarchies                      ; Auto               ; Auto               ;
+; Resource Aware Inference For Block RAM                           ; On                 ; On                 ;
++------------------------------------------------------------------+--------------------+--------------------+
+
+
++------------------------------------------+
+; Parallel Compilation                     ;
++----------------------------+-------------+
+; Processors                 ; Number      ;
++----------------------------+-------------+
+; Number detected on machine ; 12          ;
+; Maximum allowed            ; 8           ;
+;                            ;             ;
+; Average used               ; 1.00        ;
+; Maximum used               ; 8           ;
+;                            ;             ;
+; Usage by Processor         ; % Time Used ;
+;     Processor 1            ; 100.0%      ;
+;     Processors 2-8         ;   0.0%      ;
++----------------------------+-------------+
+
+
++----------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Analysis & Synthesis Source Files Read                                                                                                                         ;
++----------------------------------+-----------------+------------------------+------------------------------------------------------------------------+---------+
+; File Name with User-Entered Path ; Used in Netlist ; File Type              ; File Name with Absolute Path                                           ; Library ;
++----------------------------------+-----------------+------------------------+------------------------------------------------------------------------+---------+
+; sum_layer.v                      ; yes             ; User Verilog HDL File  ; C:/Users/HP/Downloads/kogey_stone_adder/kogey_stone_adder/sum_layer.v  ;         ;
+; pg_gen.v                         ; yes             ; User Verilog HDL File  ; C:/Users/HP/Downloads/kogey_stone_adder/kogey_stone_adder/pg_gen.v     ;         ;
+; layer8.v                         ; yes             ; User Verilog HDL File  ; C:/Users/HP/Downloads/kogey_stone_adder/kogey_stone_adder/layer8.v     ;         ;
+; layer4.v                         ; yes             ; User Verilog HDL File  ; C:/Users/HP/Downloads/kogey_stone_adder/kogey_stone_adder/layer4.v     ;         ;
+; layer2.v                         ; yes             ; User Verilog HDL File  ; C:/Users/HP/Downloads/kogey_stone_adder/kogey_stone_adder/layer2.v     ;         ;
+; layer1.v                         ; yes             ; User Verilog HDL File  ; C:/Users/HP/Downloads/kogey_stone_adder/kogey_stone_adder/layer1.v     ;         ;
+; layer_pg.v                       ; yes             ; User Verilog HDL File  ; C:/Users/HP/Downloads/kogey_stone_adder/kogey_stone_adder/layer_pg.v   ;         ;
+; gray_cell.v                      ; yes             ; User Verilog HDL File  ; C:/Users/HP/Downloads/kogey_stone_adder/kogey_stone_adder/gray_cell.v  ;         ;
+; buffer.v                         ; yes             ; User Verilog HDL File  ; C:/Users/HP/Downloads/kogey_stone_adder/kogey_stone_adder/buffer.v     ;         ;
+; black_cell.v                     ; yes             ; User Verilog HDL File  ; C:/Users/HP/Downloads/kogey_stone_adder/kogey_stone_adder/black_cell.v ;         ;
+; layer16.v                        ; yes             ; User Verilog HDL File  ; C:/Users/HP/Downloads/kogey_stone_adder/kogey_stone_adder/layer16.v    ;         ;
+; ks24.v                           ; yes             ; User Verilog HDL File  ; C:/Users/HP/Downloads/kogey_stone_adder/kogey_stone_adder/ks24.v       ;         ;
++----------------------------------+-----------------+------------------------+------------------------------------------------------------------------+---------+
+
+
++---------------------------------------------------------+
+; Analysis & Synthesis Resource Usage Summary             ;
++---------------------------------------------+-----------+
+; Resource                                    ; Usage     ;
++---------------------------------------------+-----------+
+; Estimated Total logic elements              ; 235       ;
+;                                             ;           ;
+; Total combinational functions               ; 178       ;
+; Logic element usage by number of LUT inputs ;           ;
+;     -- 4 input functions                    ; 123       ;
+;     -- 3 input functions                    ; 34        ;
+;     -- <=2 input functions                  ; 21        ;
+;                                             ;           ;
+; Logic elements by mode                      ;           ;
+;     -- normal mode                          ; 178       ;
+;     -- arithmetic mode                      ; 0         ;
+;                                             ;           ;
+; Total registers                             ; 86        ;
+;     -- Dedicated logic registers            ; 86        ;
+;     -- I/O registers                        ; 0         ;
+;                                             ;           ;
+; I/O pins                                    ; 88        ;
+;                                             ;           ;
+; Embedded Multiplier 9-bit elements          ; 0         ;
+;                                             ;           ;
+; Maximum fan-out node                        ; CLK~input ;
+; Maximum fan-out                             ; 86        ;
+; Total fan-out                               ; 1011      ;
+; Average fan-out                             ; 2.30      ;
++---------------------------------------------+-----------+
+
+
++---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Analysis & Synthesis Resource Utilization by Entity                                                                                                                                                                                                                                   ;
++---------------------------------------------+---------------------+---------------------------+-------------+------------+--------------+---------+-----------+------+--------------+------------+-------------------------------------------------------+-------------+--------------+
+; Compilation Hierarchy Node                  ; Combinational ALUTs ; Dedicated Logic Registers ; Memory Bits ; UFM Blocks ; DSP Elements ; DSP 9x9 ; DSP 18x18 ; Pins ; Virtual Pins ; ADC blocks ; Full Hierarchy Name                                   ; Entity Name ; Library Name ;
++---------------------------------------------+---------------------+---------------------------+-------------+------------+--------------+---------+-----------+------+--------------+------------+-------------------------------------------------------+-------------+--------------+
+; |ks24                                       ; 178 (0)             ; 86 (86)                   ; 0           ; 0          ; 0            ; 0       ; 0         ; 88   ; 0            ; 0          ; |ks24                                                 ; ks24        ; work         ;
+;    |layer16:u_l16|                          ; 27 (0)              ; 0 (0)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |ks24|layer16:u_l16                                   ; layer16     ; work         ;
+;       |gray_cell:g_high[18].inst|           ; 1 (1)               ; 0 (0)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |ks24|layer16:u_l16|gray_cell:g_high[18].inst         ; gray_cell   ; work         ;
+;       |gray_cell:g_high[19].inst|           ; 1 (1)               ; 0 (0)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |ks24|layer16:u_l16|gray_cell:g_high[19].inst         ; gray_cell   ; work         ;
+;       |gray_cell:g_high[20].inst|           ; 3 (3)               ; 0 (0)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |ks24|layer16:u_l16|gray_cell:g_high[20].inst         ; gray_cell   ; work         ;
+;       |gray_cell:g_high[21].inst|           ; 1 (1)               ; 0 (0)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |ks24|layer16:u_l16|gray_cell:g_high[21].inst         ; gray_cell   ; work         ;
+;       |gray_cell:g_high[22].inst|           ; 3 (3)               ; 0 (0)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |ks24|layer16:u_l16|gray_cell:g_high[22].inst         ; gray_cell   ; work         ;
+;       |gray_cell:g_high[23].inst|           ; 2 (2)               ; 0 (0)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |ks24|layer16:u_l16|gray_cell:g_high[23].inst         ; gray_cell   ; work         ;
+;       |gray_cell:g_high[24].inst|           ; 4 (4)               ; 0 (0)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |ks24|layer16:u_l16|gray_cell:g_high[24].inst         ; gray_cell   ; work         ;
+;       |gray_cell:g_high[25].inst|           ; 3 (3)               ; 0 (0)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |ks24|layer16:u_l16|gray_cell:g_high[25].inst         ; gray_cell   ; work         ;
+;       |gray_cell:g_high[26].inst|           ; 4 (4)               ; 0 (0)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |ks24|layer16:u_l16|gray_cell:g_high[26].inst         ; gray_cell   ; work         ;
+;       |gray_cell:g_high[27].inst|           ; 5 (5)               ; 0 (0)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |ks24|layer16:u_l16|gray_cell:g_high[27].inst         ; gray_cell   ; work         ;
+;    |layer1:u_l1|                            ; 28 (0)              ; 0 (0)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |ks24|layer1:u_l1                                     ; layer1      ; work         ;
+;       |black_cell:black_cell_loop[10].inst| ; 1 (1)               ; 0 (0)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |ks24|layer1:u_l1|black_cell:black_cell_loop[10].inst ; black_cell  ; work         ;
+;       |black_cell:black_cell_loop[11].inst| ; 1 (1)               ; 0 (0)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |ks24|layer1:u_l1|black_cell:black_cell_loop[11].inst ; black_cell  ; work         ;
+;       |black_cell:black_cell_loop[12].inst| ; 1 (1)               ; 0 (0)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |ks24|layer1:u_l1|black_cell:black_cell_loop[12].inst ; black_cell  ; work         ;
+;       |black_cell:black_cell_loop[13].inst| ; 1 (1)               ; 0 (0)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |ks24|layer1:u_l1|black_cell:black_cell_loop[13].inst ; black_cell  ; work         ;
+;       |black_cell:black_cell_loop[14].inst| ; 1 (1)               ; 0 (0)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |ks24|layer1:u_l1|black_cell:black_cell_loop[14].inst ; black_cell  ; work         ;
+;       |black_cell:black_cell_loop[15].inst| ; 1 (1)               ; 0 (0)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |ks24|layer1:u_l1|black_cell:black_cell_loop[15].inst ; black_cell  ; work         ;
+;       |black_cell:black_cell_loop[16].inst| ; 1 (1)               ; 0 (0)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |ks24|layer1:u_l1|black_cell:black_cell_loop[16].inst ; black_cell  ; work         ;
+;       |black_cell:black_cell_loop[17].inst| ; 1 (1)               ; 0 (0)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |ks24|layer1:u_l1|black_cell:black_cell_loop[17].inst ; black_cell  ; work         ;
+;       |black_cell:black_cell_loop[18].inst| ; 1 (1)               ; 0 (0)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |ks24|layer1:u_l1|black_cell:black_cell_loop[18].inst ; black_cell  ; work         ;
+;       |black_cell:black_cell_loop[19].inst| ; 1 (1)               ; 0 (0)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |ks24|layer1:u_l1|black_cell:black_cell_loop[19].inst ; black_cell  ; work         ;
+;       |black_cell:black_cell_loop[1].inst|  ; 1 (1)               ; 0 (0)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |ks24|layer1:u_l1|black_cell:black_cell_loop[1].inst  ; black_cell  ; work         ;
+;       |black_cell:black_cell_loop[20].inst| ; 1 (1)               ; 0 (0)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |ks24|layer1:u_l1|black_cell:black_cell_loop[20].inst ; black_cell  ; work         ;
+;       |black_cell:black_cell_loop[21].inst| ; 1 (1)               ; 0 (0)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |ks24|layer1:u_l1|black_cell:black_cell_loop[21].inst ; black_cell  ; work         ;
+;       |black_cell:black_cell_loop[22].inst| ; 1 (1)               ; 0 (0)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |ks24|layer1:u_l1|black_cell:black_cell_loop[22].inst ; black_cell  ; work         ;
+;       |black_cell:black_cell_loop[23].inst| ; 1 (1)               ; 0 (0)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |ks24|layer1:u_l1|black_cell:black_cell_loop[23].inst ; black_cell  ; work         ;
+;       |black_cell:black_cell_loop[24].inst| ; 1 (1)               ; 0 (0)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |ks24|layer1:u_l1|black_cell:black_cell_loop[24].inst ; black_cell  ; work         ;
+;       |black_cell:black_cell_loop[25].inst| ; 1 (1)               ; 0 (0)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |ks24|layer1:u_l1|black_cell:black_cell_loop[25].inst ; black_cell  ; work         ;
+;       |black_cell:black_cell_loop[26].inst| ; 1 (1)               ; 0 (0)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |ks24|layer1:u_l1|black_cell:black_cell_loop[26].inst ; black_cell  ; work         ;
+;       |black_cell:black_cell_loop[27].inst| ; 1 (1)               ; 0 (0)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |ks24|layer1:u_l1|black_cell:black_cell_loop[27].inst ; black_cell  ; work         ;
+;       |black_cell:black_cell_loop[2].inst|  ; 1 (1)               ; 0 (0)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |ks24|layer1:u_l1|black_cell:black_cell_loop[2].inst  ; black_cell  ; work         ;
+;       |black_cell:black_cell_loop[3].inst|  ; 1 (1)               ; 0 (0)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |ks24|layer1:u_l1|black_cell:black_cell_loop[3].inst  ; black_cell  ; work         ;
+;       |black_cell:black_cell_loop[4].inst|  ; 1 (1)               ; 0 (0)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |ks24|layer1:u_l1|black_cell:black_cell_loop[4].inst  ; black_cell  ; work         ;
+;       |black_cell:black_cell_loop[5].inst|  ; 1 (1)               ; 0 (0)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |ks24|layer1:u_l1|black_cell:black_cell_loop[5].inst  ; black_cell  ; work         ;
+;       |black_cell:black_cell_loop[6].inst|  ; 1 (1)               ; 0 (0)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |ks24|layer1:u_l1|black_cell:black_cell_loop[6].inst  ; black_cell  ; work         ;
+;       |black_cell:black_cell_loop[7].inst|  ; 1 (1)               ; 0 (0)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |ks24|layer1:u_l1|black_cell:black_cell_loop[7].inst  ; black_cell  ; work         ;
+;       |black_cell:black_cell_loop[8].inst|  ; 1 (1)               ; 0 (0)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |ks24|layer1:u_l1|black_cell:black_cell_loop[8].inst  ; black_cell  ; work         ;
+;       |black_cell:black_cell_loop[9].inst|  ; 1 (1)               ; 0 (0)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |ks24|layer1:u_l1|black_cell:black_cell_loop[9].inst  ; black_cell  ; work         ;
+;       |gray_cell:gc1|                       ; 1 (1)               ; 0 (0)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |ks24|layer1:u_l1|gray_cell:gc1                       ; gray_cell   ; work         ;
+;    |layer2:u_l2|                            ; 20 (0)              ; 0 (0)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |ks24|layer2:u_l2                                     ; layer2      ; work         ;
+;       |black_cell:black_cell_loop[10].inst| ; 2 (2)               ; 0 (0)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |ks24|layer2:u_l2|black_cell:black_cell_loop[10].inst ; black_cell  ; work         ;
+;       |black_cell:black_cell_loop[11].inst| ; 2 (2)               ; 0 (0)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |ks24|layer2:u_l2|black_cell:black_cell_loop[11].inst ; black_cell  ; work         ;
+;       |black_cell:black_cell_loop[12].inst| ; 1 (1)               ; 0 (0)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |ks24|layer2:u_l2|black_cell:black_cell_loop[12].inst ; black_cell  ; work         ;
+;       |black_cell:black_cell_loop[13].inst| ; 1 (1)               ; 0 (0)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |ks24|layer2:u_l2|black_cell:black_cell_loop[13].inst ; black_cell  ; work         ;
+;       |black_cell:black_cell_loop[14].inst| ; 1 (1)               ; 0 (0)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |ks24|layer2:u_l2|black_cell:black_cell_loop[14].inst ; black_cell  ; work         ;
+;       |black_cell:black_cell_loop[15].inst| ; 1 (1)               ; 0 (0)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |ks24|layer2:u_l2|black_cell:black_cell_loop[15].inst ; black_cell  ; work         ;
+;       |black_cell:black_cell_loop[16].inst| ; 1 (1)               ; 0 (0)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |ks24|layer2:u_l2|black_cell:black_cell_loop[16].inst ; black_cell  ; work         ;
+;       |black_cell:black_cell_loop[17].inst| ; 1 (1)               ; 0 (0)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |ks24|layer2:u_l2|black_cell:black_cell_loop[17].inst ; black_cell  ; work         ;
+;       |black_cell:black_cell_loop[18].inst| ; 1 (1)               ; 0 (0)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |ks24|layer2:u_l2|black_cell:black_cell_loop[18].inst ; black_cell  ; work         ;
+;       |black_cell:black_cell_loop[19].inst| ; 1 (1)               ; 0 (0)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |ks24|layer2:u_l2|black_cell:black_cell_loop[19].inst ; black_cell  ; work         ;
+;       |black_cell:black_cell_loop[20].inst| ; 1 (1)               ; 0 (0)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |ks24|layer2:u_l2|black_cell:black_cell_loop[20].inst ; black_cell  ; work         ;
+;       |black_cell:black_cell_loop[21].inst| ; 2 (2)               ; 0 (0)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |ks24|layer2:u_l2|black_cell:black_cell_loop[21].inst ; black_cell  ; work         ;
+;       |black_cell:black_cell_loop[22].inst| ; 1 (1)               ; 0 (0)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |ks24|layer2:u_l2|black_cell:black_cell_loop[22].inst ; black_cell  ; work         ;
+;       |black_cell:black_cell_loop[7].inst|  ; 1 (1)               ; 0 (0)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |ks24|layer2:u_l2|black_cell:black_cell_loop[7].inst  ; black_cell  ; work         ;
+;       |black_cell:black_cell_loop[8].inst|  ; 1 (1)               ; 0 (0)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |ks24|layer2:u_l2|black_cell:black_cell_loop[8].inst  ; black_cell  ; work         ;
+;       |black_cell:black_cell_loop[9].inst|  ; 1 (1)               ; 0 (0)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |ks24|layer2:u_l2|black_cell:black_cell_loop[9].inst  ; black_cell  ; work         ;
+;       |gray_cell:inst|                      ; 1 (1)               ; 0 (0)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |ks24|layer2:u_l2|gray_cell:inst                      ; gray_cell   ; work         ;
+;    |layer4:u_l4|                            ; 30 (0)              ; 0 (0)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |ks24|layer4:u_l4                                     ; layer4      ; work         ;
+;       |black_cell:black_cell_loop[10].inst| ; 2 (2)               ; 0 (0)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |ks24|layer4:u_l4|black_cell:black_cell_loop[10].inst ; black_cell  ; work         ;
+;       |black_cell:black_cell_loop[11].inst| ; 2 (2)               ; 0 (0)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |ks24|layer4:u_l4|black_cell:black_cell_loop[11].inst ; black_cell  ; work         ;
+;       |black_cell:black_cell_loop[12].inst| ; 2 (2)               ; 0 (0)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |ks24|layer4:u_l4|black_cell:black_cell_loop[12].inst ; black_cell  ; work         ;
+;       |black_cell:black_cell_loop[13].inst| ; 2 (2)               ; 0 (0)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |ks24|layer4:u_l4|black_cell:black_cell_loop[13].inst ; black_cell  ; work         ;
+;       |black_cell:black_cell_loop[14].inst| ; 2 (2)               ; 0 (0)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |ks24|layer4:u_l4|black_cell:black_cell_loop[14].inst ; black_cell  ; work         ;
+;       |black_cell:black_cell_loop[15].inst| ; 2 (2)               ; 0 (0)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |ks24|layer4:u_l4|black_cell:black_cell_loop[15].inst ; black_cell  ; work         ;
+;       |black_cell:black_cell_loop[7].inst|  ; 4 (4)               ; 0 (0)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |ks24|layer4:u_l4|black_cell:black_cell_loop[7].inst  ; black_cell  ; work         ;
+;       |black_cell:black_cell_loop[8].inst|  ; 2 (2)               ; 0 (0)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |ks24|layer4:u_l4|black_cell:black_cell_loop[8].inst  ; black_cell  ; work         ;
+;       |black_cell:black_cell_loop[9].inst|  ; 2 (2)               ; 0 (0)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |ks24|layer4:u_l4|black_cell:black_cell_loop[9].inst  ; black_cell  ; work         ;
+;       |gray_cell:gray_cell_loop[4].inst|    ; 3 (3)               ; 0 (0)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |ks24|layer4:u_l4|gray_cell:gray_cell_loop[4].inst    ; gray_cell   ; work         ;
+;       |gray_cell:gray_cell_loop[5].inst|    ; 3 (3)               ; 0 (0)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |ks24|layer4:u_l4|gray_cell:gray_cell_loop[5].inst    ; gray_cell   ; work         ;
+;       |gray_cell:gray_cell_loop[6].inst|    ; 3 (3)               ; 0 (0)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |ks24|layer4:u_l4|gray_cell:gray_cell_loop[6].inst    ; gray_cell   ; work         ;
+;       |gray_cell:inst1|                     ; 1 (1)               ; 0 (0)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |ks24|layer4:u_l4|gray_cell:inst1                     ; gray_cell   ; work         ;
+;    |layer8:u_l8|                            ; 11 (0)              ; 0 (0)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |ks24|layer8:u_l8                                     ; layer8      ; work         ;
+;       |gray_cell:gc8|                       ; 2 (2)               ; 0 (0)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |ks24|layer8:u_l8|gray_cell:gc8                       ; gray_cell   ; work         ;
+;       |gray_cell:gray_high[10].gc|          ; 1 (1)               ; 0 (0)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |ks24|layer8:u_l8|gray_cell:gray_high[10].gc          ; gray_cell   ; work         ;
+;       |gray_cell:gray_high[11].gc|          ; 1 (1)               ; 0 (0)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |ks24|layer8:u_l8|gray_cell:gray_high[11].gc          ; gray_cell   ; work         ;
+;       |gray_cell:gray_high[12].gc|          ; 1 (1)               ; 0 (0)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |ks24|layer8:u_l8|gray_cell:gray_high[12].gc          ; gray_cell   ; work         ;
+;       |gray_cell:gray_high[13].gc|          ; 1 (1)               ; 0 (0)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |ks24|layer8:u_l8|gray_cell:gray_high[13].gc          ; gray_cell   ; work         ;
+;       |gray_cell:gray_high[14].gc|          ; 1 (1)               ; 0 (0)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |ks24|layer8:u_l8|gray_cell:gray_high[14].gc          ; gray_cell   ; work         ;
+;       |gray_cell:gray_high[15].gc|          ; 1 (1)               ; 0 (0)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |ks24|layer8:u_l8|gray_cell:gray_high[15].gc          ; gray_cell   ; work         ;
+;       |gray_cell:gray_high[20].gc|          ; 1 (1)               ; 0 (0)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |ks24|layer8:u_l8|gray_cell:gray_high[20].gc          ; gray_cell   ; work         ;
+;       |gray_cell:gray_high[9].gc|           ; 2 (2)               ; 0 (0)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |ks24|layer8:u_l8|gray_cell:gray_high[9].gc           ; gray_cell   ; work         ;
+;    |layer_pg:u_pg|                          ; 20 (0)              ; 0 (0)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |ks24|layer_pg:u_pg                                   ; layer_pg    ; work         ;
+;       |pg_gen:pg_gen[16].inst|              ; 1 (1)               ; 0 (0)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |ks24|layer_pg:u_pg|pg_gen:pg_gen[16].inst            ; pg_gen      ; work         ;
+;       |pg_gen:pg_gen[17].inst|              ; 1 (1)               ; 0 (0)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |ks24|layer_pg:u_pg|pg_gen:pg_gen[17].inst            ; pg_gen      ; work         ;
+;       |pg_gen:pg_gen[18].inst|              ; 1 (1)               ; 0 (0)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |ks24|layer_pg:u_pg|pg_gen:pg_gen[18].inst            ; pg_gen      ; work         ;
+;       |pg_gen:pg_gen[19].inst|              ; 1 (1)               ; 0 (0)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |ks24|layer_pg:u_pg|pg_gen:pg_gen[19].inst            ; pg_gen      ; work         ;
+;       |pg_gen:pg_gen[1].inst|               ; 1 (1)               ; 0 (0)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |ks24|layer_pg:u_pg|pg_gen:pg_gen[1].inst             ; pg_gen      ; work         ;
+;       |pg_gen:pg_gen[20].inst|              ; 1 (1)               ; 0 (0)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |ks24|layer_pg:u_pg|pg_gen:pg_gen[20].inst            ; pg_gen      ; work         ;
+;       |pg_gen:pg_gen[21].inst|              ; 1 (1)               ; 0 (0)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |ks24|layer_pg:u_pg|pg_gen:pg_gen[21].inst            ; pg_gen      ; work         ;
+;       |pg_gen:pg_gen[22].inst|              ; 1 (1)               ; 0 (0)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |ks24|layer_pg:u_pg|pg_gen:pg_gen[22].inst            ; pg_gen      ; work         ;
+;       |pg_gen:pg_gen[24].inst|              ; 1 (1)               ; 0 (0)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |ks24|layer_pg:u_pg|pg_gen:pg_gen[24].inst            ; pg_gen      ; work         ;
+;       |pg_gen:pg_gen[25].inst|              ; 1 (1)               ; 0 (0)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |ks24|layer_pg:u_pg|pg_gen:pg_gen[25].inst            ; pg_gen      ; work         ;
+;       |pg_gen:pg_gen[26].inst|              ; 1 (1)               ; 0 (0)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |ks24|layer_pg:u_pg|pg_gen:pg_gen[26].inst            ; pg_gen      ; work         ;
+;       |pg_gen:pg_gen[27].inst|              ; 1 (1)               ; 0 (0)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |ks24|layer_pg:u_pg|pg_gen:pg_gen[27].inst            ; pg_gen      ; work         ;
+;       |pg_gen:pg_gen[2].inst|               ; 1 (1)               ; 0 (0)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |ks24|layer_pg:u_pg|pg_gen:pg_gen[2].inst             ; pg_gen      ; work         ;
+;       |pg_gen:pg_gen[3].inst|               ; 1 (1)               ; 0 (0)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |ks24|layer_pg:u_pg|pg_gen:pg_gen[3].inst             ; pg_gen      ; work         ;
+;       |pg_gen:pg_gen[4].inst|               ; 1 (1)               ; 0 (0)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |ks24|layer_pg:u_pg|pg_gen:pg_gen[4].inst             ; pg_gen      ; work         ;
+;       |pg_gen:pg_gen[5].inst|               ; 1 (1)               ; 0 (0)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |ks24|layer_pg:u_pg|pg_gen:pg_gen[5].inst             ; pg_gen      ; work         ;
+;       |pg_gen:pg_gen[6].inst|               ; 1 (1)               ; 0 (0)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |ks24|layer_pg:u_pg|pg_gen:pg_gen[6].inst             ; pg_gen      ; work         ;
+;       |pg_gen:pg_gen[7].inst|               ; 1 (1)               ; 0 (0)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |ks24|layer_pg:u_pg|pg_gen:pg_gen[7].inst             ; pg_gen      ; work         ;
+;       |pg_gen:pg_gen[8].inst|               ; 1 (1)               ; 0 (0)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |ks24|layer_pg:u_pg|pg_gen:pg_gen[8].inst             ; pg_gen      ; work         ;
+;       |pg_gen:pg_gen[9].inst|               ; 1 (1)               ; 0 (0)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |ks24|layer_pg:u_pg|pg_gen:pg_gen[9].inst             ; pg_gen      ; work         ;
+;    |sum_layer:u_sum|                        ; 42 (42)             ; 0 (0)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |ks24|sum_layer:u_sum                                 ; sum_layer   ; work         ;
++---------------------------------------------+---------------------+---------------------------+-------------+------------+--------------+---------+-----------+------+--------------+------------+-------------------------------------------------------+-------------+--------------+
+Note: For table entries with two numbers listed, the numbers in parentheses indicate the number of resources of the given type used by the specific entity alone. The numbers listed outside of parentheses indicate the total resources of the given type used by the specific entity and all of its sub-entities in the hierarchy.
+
+
++------------------------------------------------------+
+; General Register Statistics                          ;
++----------------------------------------------+-------+
+; Statistic                                    ; Value ;
++----------------------------------------------+-------+
+; Total registers                              ; 86    ;
+; Number of registers using Synchronous Clear  ; 0     ;
+; Number of registers using Synchronous Load   ; 0     ;
+; Number of registers using Asynchronous Clear ; 86    ;
+; Number of registers using Asynchronous Load  ; 0     ;
+; Number of registers using Clock Enable       ; 0     ;
+; Number of registers using Preset             ; 0     ;
++----------------------------------------------+-------+
+
+
++------------------------------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "layer16:u_l16"                                                                        ;
++--------+--------+----------+-------------------------------------------------------------------------------------+
+; Port   ; Type   ; Severity ; Details                                                                             ;
++--------+--------+----------+-------------------------------------------------------------------------------------+
+; OUTP16 ; Output ; Info     ; Explicitly unconnected                                                              ;
+; CIN16  ; Output ; Info     ; Connected to dangling logic. Logic that only feeds a dangling port will be removed. ;
++--------+--------+----------+-------------------------------------------------------------------------------------+
+
+
++--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "layer8:u_l8"                                                                                                                                                                      ;
++------+-------+----------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Port ; Type  ; Severity ; Details                                                                                                                                                                            ;
++------+-------+----------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; P    ; Input ; Warning  ; Input port expression (21 bits) is wider than the input port (20 bits) it drives.  The 1 most-significant bit(s) in the expression will be dangling if they have no other fanouts. ;
++------+-------+----------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+
+
++---------------------------------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "layer4:u_l4"                                                                             ;
++-----------+--------+----------+-------------------------------------------------------------------------------------+
+; Port      ; Type   ; Severity ; Details                                                                             ;
++-----------+--------+----------+-------------------------------------------------------------------------------------+
+; OUTP4[27] ; Output ; Info     ; Connected to dangling logic. Logic that only feeds a dangling port will be removed. ;
++-----------+--------+----------+-------------------------------------------------------------------------------------+
+
+
++-----------------------------------------------------+
+; Post-Synthesis Netlist Statistics for Top Partition ;
++-----------------------+-----------------------------+
+; Type                  ; Count                       ;
++-----------------------+-----------------------------+
+; boundary_port         ; 88                          ;
+; cycloneiii_ff         ; 86                          ;
+;     CLR               ; 86                          ;
+; cycloneiii_lcell_comb ; 178                         ;
+;     normal            ; 178                         ;
+;         2 data inputs ; 21                          ;
+;         3 data inputs ; 34                          ;
+;         4 data inputs ; 123                         ;
+;                       ;                             ;
+; Max LUT depth         ; 5.00                        ;
+; Average LUT depth     ; 3.40                        ;
++-----------------------+-----------------------------+
+
+
++-------------------------------+
+; Elapsed Time Per Partition    ;
++----------------+--------------+
+; Partition Name ; Elapsed Time ;
++----------------+--------------+
+; Top            ; 00:00:03     ;
++----------------+--------------+
+
+
++-------------------------------+
+; Analysis & Synthesis Messages ;
++-------------------------------+
+Info: *******************************************************************
+Info: Running Quartus Prime Analysis & Synthesis
+    Info: Version 20.1.1 Build 720 11/11/2020 SJ Lite Edition
+    Info: Processing started: Tue Nov 25 18:52:39 2025
+Info: Command: quartus_map --read_settings_files=on --write_settings_files=off ks_adder -c ks_adder
+Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
+Info (20030): Parallel compilation is enabled and will use 8 of the 8 processors detected
+Info (12021): Found 1 design units, including 1 entities, in source file ks24_tb.v
+    Info (12023): Found entity 1: ks24_TB File: C:/Users/HP/Downloads/kogey_stone_adder/kogey_stone_adder/ks24_TB.v Line: 3
+Info (12021): Found 1 design units, including 1 entities, in source file sum_layer.v
+    Info (12023): Found entity 1: sum_layer File: C:/Users/HP/Downloads/kogey_stone_adder/kogey_stone_adder/sum_layer.v Line: 1
+Info (12021): Found 1 design units, including 1 entities, in source file pg_gen.v
+    Info (12023): Found entity 1: pg_gen File: C:/Users/HP/Downloads/kogey_stone_adder/kogey_stone_adder/pg_gen.v Line: 2
+Info (12021): Found 1 design units, including 1 entities, in source file layer8.v
+    Info (12023): Found entity 1: layer8 File: C:/Users/HP/Downloads/kogey_stone_adder/kogey_stone_adder/layer8.v Line: 2
+Info (12021): Found 1 design units, including 1 entities, in source file layer4.v
+    Info (12023): Found entity 1: layer4 File: C:/Users/HP/Downloads/kogey_stone_adder/kogey_stone_adder/layer4.v Line: 1
+Info (12021): Found 1 design units, including 1 entities, in source file layer2.v
+    Info (12023): Found entity 1: layer2 File: C:/Users/HP/Downloads/kogey_stone_adder/kogey_stone_adder/layer2.v Line: 1
+Info (12021): Found 1 design units, including 1 entities, in source file layer1.v
+    Info (12023): Found entity 1: layer1 File: C:/Users/HP/Downloads/kogey_stone_adder/kogey_stone_adder/layer1.v Line: 1
+Info (12021): Found 1 design units, including 1 entities, in source file layer_pg.v
+    Info (12023): Found entity 1: layer_pg File: C:/Users/HP/Downloads/kogey_stone_adder/kogey_stone_adder/layer_pg.v Line: 4
+Info (12021): Found 1 design units, including 1 entities, in source file gray_cell.v
+    Info (12023): Found entity 1: gray_cell File: C:/Users/HP/Downloads/kogey_stone_adder/kogey_stone_adder/gray_cell.v Line: 1
+Info (12021): Found 1 design units, including 1 entities, in source file buffer.v
+    Info (12023): Found entity 1: buffer File: C:/Users/HP/Downloads/kogey_stone_adder/kogey_stone_adder/buffer.v Line: 1
+Info (12021): Found 1 design units, including 1 entities, in source file black_cell.v
+    Info (12023): Found entity 1: black_cell File: C:/Users/HP/Downloads/kogey_stone_adder/kogey_stone_adder/black_cell.v Line: 1
+Info (12021): Found 1 design units, including 1 entities, in source file layer16.v
+    Info (12023): Found entity 1: layer16 File: C:/Users/HP/Downloads/kogey_stone_adder/kogey_stone_adder/layer16.v Line: 1
+Info (12021): Found 1 design units, including 1 entities, in source file ks24.v
+    Info (12023): Found entity 1: ks24 File: C:/Users/HP/Downloads/kogey_stone_adder/kogey_stone_adder/ks24.v Line: 3
+Info (12127): Elaborating entity "ks24" for the top level hierarchy
+Info (12128): Elaborating entity "layer_pg" for hierarchy "layer_pg:u_pg" File: C:/Users/HP/Downloads/kogey_stone_adder/kogey_stone_adder/ks24.v Line: 58
+Info (12128): Elaborating entity "pg_gen" for hierarchy "layer_pg:u_pg|pg_gen:pg_gen[0].inst" File: C:/Users/HP/Downloads/kogey_stone_adder/kogey_stone_adder/layer_pg.v Line: 16
+Info (12128): Elaborating entity "layer1" for hierarchy "layer1:u_l1" File: C:/Users/HP/Downloads/kogey_stone_adder/kogey_stone_adder/ks24.v Line: 70
+Info (12128): Elaborating entity "buffer" for hierarchy "layer1:u_l1|buffer:b1" File: C:/Users/HP/Downloads/kogey_stone_adder/kogey_stone_adder/layer1.v Line: 11
+Info (12128): Elaborating entity "gray_cell" for hierarchy "layer1:u_l1|gray_cell:gc1" File: C:/Users/HP/Downloads/kogey_stone_adder/kogey_stone_adder/layer1.v Line: 18
+Info (12128): Elaborating entity "black_cell" for hierarchy "layer1:u_l1|black_cell:black_cell_loop[1].inst" File: C:/Users/HP/Downloads/kogey_stone_adder/kogey_stone_adder/layer1.v Line: 30
+Info (12128): Elaborating entity "layer2" for hierarchy "layer2:u_l2" File: C:/Users/HP/Downloads/kogey_stone_adder/kogey_stone_adder/ks24.v Line: 82
+Info (12128): Elaborating entity "layer4" for hierarchy "layer4:u_l4" File: C:/Users/HP/Downloads/kogey_stone_adder/kogey_stone_adder/ks24.v Line: 94
+Info (12128): Elaborating entity "layer8" for hierarchy "layer8:u_l8" File: C:/Users/HP/Downloads/kogey_stone_adder/kogey_stone_adder/ks24.v Line: 106
+Info (12128): Elaborating entity "layer16" for hierarchy "layer16:u_l16" File: C:/Users/HP/Downloads/kogey_stone_adder/kogey_stone_adder/ks24.v Line: 118
+Info (12128): Elaborating entity "sum_layer" for hierarchy "sum_layer:u_sum" File: C:/Users/HP/Downloads/kogey_stone_adder/kogey_stone_adder/ks24.v Line: 130
+Warning (12241): 1 hierarchies have connectivity warnings - see the Connectivity Checks report folder
+Info (286030): Timing-Driven Synthesis is running
+Info (16010): Generating hard_block partition "hard_block:auto_generated_inst"
+    Info (16011): Adding 0 node(s), including 0 DDIO, 0 PLL, 0 transceiver and 0 LCELL
+Info (21057): Implemented 323 device resources after synthesis - the final resource count might be different
+    Info (21058): Implemented 59 input pins
+    Info (21059): Implemented 29 output pins
+    Info (21061): Implemented 235 logic cells
+Info: Quartus Prime Analysis & Synthesis was successful. 0 errors, 2 warnings
+    Info: Peak virtual memory: 4809 megabytes
+    Info: Processing ended: Tue Nov 25 18:52:56 2025
+    Info: Elapsed time: 00:00:17
+    Info: Total CPU time (on all processors): 00:00:31
+
+

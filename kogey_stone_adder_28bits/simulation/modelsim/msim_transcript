@@ -1,0 +1,204 @@
+# Reading pref.tcl
+# ERROR: No extended dataflow license exists
+# do ks_adder_run_msim_rtl_verilog.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 2020.1 Lib Mapping Utility 2020.02 Feb 28 2020
+# vmap work rtl_work 
+# Copying D:/QUARTUS20.1/intelFPGA_lite/20.1/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# 
+# vlog -vlog01compat -work work +incdir+C:/Users/HP/Downloads/kogey_stone_adder/kogey_stone_adder {C:/Users/HP/Downloads/kogey_stone_adder/kogey_stone_adder/sum_layer.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 19:00:49 on Nov 25,2025
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/HP/Downloads/kogey_stone_adder/kogey_stone_adder" C:/Users/HP/Downloads/kogey_stone_adder/kogey_stone_adder/sum_layer.v 
+# -- Compiling module sum_layer
+# 
+# Top level modules:
+# 	sum_layer
+# End time: 19:00:49 on Nov 25,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/HP/Downloads/kogey_stone_adder/kogey_stone_adder {C:/Users/HP/Downloads/kogey_stone_adder/kogey_stone_adder/pg_gen.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 19:00:49 on Nov 25,2025
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/HP/Downloads/kogey_stone_adder/kogey_stone_adder" C:/Users/HP/Downloads/kogey_stone_adder/kogey_stone_adder/pg_gen.v 
+# -- Compiling module pg_gen
+# 
+# Top level modules:
+# 	pg_gen
+# End time: 19:00:49 on Nov 25,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/HP/Downloads/kogey_stone_adder/kogey_stone_adder {C:/Users/HP/Downloads/kogey_stone_adder/kogey_stone_adder/layer8.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 19:00:49 on Nov 25,2025
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/HP/Downloads/kogey_stone_adder/kogey_stone_adder" C:/Users/HP/Downloads/kogey_stone_adder/kogey_stone_adder/layer8.v 
+# -- Compiling module layer8
+# 
+# Top level modules:
+# 	layer8
+# End time: 19:00:50 on Nov 25,2025, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/HP/Downloads/kogey_stone_adder/kogey_stone_adder {C:/Users/HP/Downloads/kogey_stone_adder/kogey_stone_adder/layer4.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 19:00:50 on Nov 25,2025
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/HP/Downloads/kogey_stone_adder/kogey_stone_adder" C:/Users/HP/Downloads/kogey_stone_adder/kogey_stone_adder/layer4.v 
+# -- Compiling module layer4
+# 
+# Top level modules:
+# 	layer4
+# End time: 19:00:50 on Nov 25,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/HP/Downloads/kogey_stone_adder/kogey_stone_adder {C:/Users/HP/Downloads/kogey_stone_adder/kogey_stone_adder/layer2.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 19:00:50 on Nov 25,2025
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/HP/Downloads/kogey_stone_adder/kogey_stone_adder" C:/Users/HP/Downloads/kogey_stone_adder/kogey_stone_adder/layer2.v 
+# -- Compiling module layer2
+# 
+# Top level modules:
+# 	layer2
+# End time: 19:00:50 on Nov 25,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/HP/Downloads/kogey_stone_adder/kogey_stone_adder {C:/Users/HP/Downloads/kogey_stone_adder/kogey_stone_adder/layer1.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 19:00:50 on Nov 25,2025
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/HP/Downloads/kogey_stone_adder/kogey_stone_adder" C:/Users/HP/Downloads/kogey_stone_adder/kogey_stone_adder/layer1.v 
+# -- Compiling module layer1
+# 
+# Top level modules:
+# 	layer1
+# End time: 19:00:50 on Nov 25,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/HP/Downloads/kogey_stone_adder/kogey_stone_adder {C:/Users/HP/Downloads/kogey_stone_adder/kogey_stone_adder/layer_pg.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 19:00:50 on Nov 25,2025
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/HP/Downloads/kogey_stone_adder/kogey_stone_adder" C:/Users/HP/Downloads/kogey_stone_adder/kogey_stone_adder/layer_pg.v 
+# -- Compiling module layer_pg
+# 
+# Top level modules:
+# 	layer_pg
+# End time: 19:00:50 on Nov 25,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/HP/Downloads/kogey_stone_adder/kogey_stone_adder {C:/Users/HP/Downloads/kogey_stone_adder/kogey_stone_adder/gray_cell.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 19:00:50 on Nov 25,2025
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/HP/Downloads/kogey_stone_adder/kogey_stone_adder" C:/Users/HP/Downloads/kogey_stone_adder/kogey_stone_adder/gray_cell.v 
+# -- Compiling module gray_cell
+# 
+# Top level modules:
+# 	gray_cell
+# End time: 19:00:51 on Nov 25,2025, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/HP/Downloads/kogey_stone_adder/kogey_stone_adder {C:/Users/HP/Downloads/kogey_stone_adder/kogey_stone_adder/buffer.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 19:00:51 on Nov 25,2025
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/HP/Downloads/kogey_stone_adder/kogey_stone_adder" C:/Users/HP/Downloads/kogey_stone_adder/kogey_stone_adder/buffer.v 
+# -- Compiling module buffer
+# 
+# Top level modules:
+# 	buffer
+# End time: 19:00:51 on Nov 25,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/HP/Downloads/kogey_stone_adder/kogey_stone_adder {C:/Users/HP/Downloads/kogey_stone_adder/kogey_stone_adder/black_cell.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 19:00:51 on Nov 25,2025
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/HP/Downloads/kogey_stone_adder/kogey_stone_adder" C:/Users/HP/Downloads/kogey_stone_adder/kogey_stone_adder/black_cell.v 
+# -- Compiling module black_cell
+# 
+# Top level modules:
+# 	black_cell
+# End time: 19:00:51 on Nov 25,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/HP/Downloads/kogey_stone_adder/kogey_stone_adder {C:/Users/HP/Downloads/kogey_stone_adder/kogey_stone_adder/layer16.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 19:00:51 on Nov 25,2025
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/HP/Downloads/kogey_stone_adder/kogey_stone_adder" C:/Users/HP/Downloads/kogey_stone_adder/kogey_stone_adder/layer16.v 
+# -- Compiling module layer16
+# 
+# Top level modules:
+# 	layer16
+# End time: 19:00:51 on Nov 25,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/HP/Downloads/kogey_stone_adder/kogey_stone_adder {C:/Users/HP/Downloads/kogey_stone_adder/kogey_stone_adder/ks24.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 19:00:51 on Nov 25,2025
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/HP/Downloads/kogey_stone_adder/kogey_stone_adder" C:/Users/HP/Downloads/kogey_stone_adder/kogey_stone_adder/ks24.v 
+# -- Compiling module ks24
+# 
+# Top level modules:
+# 	ks24
+# End time: 19:00:51 on Nov 25,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vlog -vlog01compat -work work +incdir+C:/Users/HP/Downloads/kogey_stone_adder/kogey_stone_adder {C:/Users/HP/Downloads/kogey_stone_adder/kogey_stone_adder/ks24_TB.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 19:00:51 on Nov 25,2025
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/HP/Downloads/kogey_stone_adder/kogey_stone_adder" C:/Users/HP/Downloads/kogey_stone_adder/kogey_stone_adder/ks24_TB.v 
+# -- Compiling module ks24_TB
+# 
+# Top level modules:
+# 	ks24_TB
+# End time: 19:00:52 on Nov 25,2025, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# 
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L fiftyfivenm_ver -L rtl_work -L work -voptargs="+acc"  ks24_TB
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L fiftyfivenm_ver -L rtl_work -L work -voptargs=""+acc"" ks24_TB 
+# Start time: 19:00:52 on Nov 25,2025
+# Loading work.ks24_TB
+# Loading work.ks24
+# Loading work.layer_pg
+# Loading work.layer1
+# Loading work.buffer
+# Loading work.gray_cell
+# Loading work.layer2
+# Loading work.layer4
+# Loading work.layer8
+# Loading work.layer16
+# Loading work.sum_layer
+# Loading work.pg_gen
+# Loading work.black_cell
+# ** Warning: (vsim-3015) [PCDPC] - Port size (20) does not match connection size (21) for port 'P'. The port definition is at: C:/Users/HP/Downloads/kogey_stone_adder/kogey_stone_adder/layer8.v(4).
+#    Time: 0 ps  Iteration: 0  Instance: /ks24_TB/dut/u_l8 File: C:/Users/HP/Downloads/kogey_stone_adder/kogey_stone_adder/ks24.v Line: 99
+# 
+# add wave *
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# run -all
+# TIME		A		B		CIN	SUM	COUT
+# 0	0000000	0000000	0	0000000	0
+# 35000	0000001	0000001	1	0000000	0
+# 45000	0ffffff	0ffffff	1	0000000	0
+# 55000	1234567	7654321	0	0000003	0
+# 65000	8000000	7ffffff	0	1ffffff	0
+# 75000	2153524	0895e81	1	8888888	0
+# 85000	1f05663	6b97b0d	1	fffffff	0
+# 95000	2c28465	9375212	1	29e93a6	0
+# 105000	6d7cd0d	b23f176	1	8a9d171	0
+# 115000	6d457ed	62df78c	1	bf9d678	0
+# 125000	33724c6	2f784c5	0	1fbbe84	1
+# 135000	2aff7e5	bd27277	0	d024f7a	0
+# 145000	7ecdb8f	93069f2	0	62ea98b	0
+# 155000	4007ae8	2ca4ec5	0	e826a5c	0
+# 165000	e8e28bd	6ab582d	1	11d4581	1
+# 175000	1ef6263	573870a	0	6cac9ad	0
+# 185000	0642120	57845aa	1	53980eb	1
+# 195000	b203e96	983b813	1	762e96d	0
+# 205000	9a7d653	59fdd6b	1	5dc66cb	0
+# 215000	1174a02	7563eae	1	4a3f6aa	1
+# 225000	7c572cf	1844923	0	f47b3bf	0
+# 235000	5730aca	e314c3c	0	86d88b1	0
+# 245000	52e618a	0c4b341	0	949bbf2	0
+# 255000	c20f378	48a1289	1	3a45706	1
+# 265000	b0265b6	34bf9c6	0	5f314cb	0
+# 275000	b0265b6	34bf9c6	0	0ab0602	1
+# 285000	b0265b6	34bf9c6	0	e4e5f7c	0
+# ** Note: $finish    : C:/Users/HP/Downloads/kogey_stone_adder/kogey_stone_adder/ks24_TB.v(82)
+#    Time: 315 ns  Iteration: 1  Instance: /ks24_TB
+# 1
+# Break in Module ks24_TB at C:/Users/HP/Downloads/kogey_stone_adder/kogey_stone_adder/ks24_TB.v line 82
+# End time: 19:15:22 on Nov 25,2025, Elapsed time: 0:14:30
+# Errors: 0, Warnings: 1

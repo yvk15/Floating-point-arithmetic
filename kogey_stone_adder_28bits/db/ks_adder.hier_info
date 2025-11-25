@@ -1,0 +1,2512 @@
+|ks24
+A[0] => INPUT_REG[29].DATAIN
+A[1] => INPUT_REG[30].DATAIN
+A[2] => INPUT_REG[31].DATAIN
+A[3] => INPUT_REG[32].DATAIN
+A[4] => INPUT_REG[33].DATAIN
+A[5] => INPUT_REG[34].DATAIN
+A[6] => INPUT_REG[35].DATAIN
+A[7] => INPUT_REG[36].DATAIN
+A[8] => INPUT_REG[37].DATAIN
+A[9] => INPUT_REG[38].DATAIN
+A[10] => INPUT_REG[39].DATAIN
+A[11] => INPUT_REG[40].DATAIN
+A[12] => INPUT_REG[41].DATAIN
+A[13] => INPUT_REG[42].DATAIN
+A[14] => INPUT_REG[43].DATAIN
+A[15] => INPUT_REG[44].DATAIN
+A[16] => INPUT_REG[45].DATAIN
+A[17] => INPUT_REG[46].DATAIN
+A[18] => INPUT_REG[47].DATAIN
+A[19] => INPUT_REG[48].DATAIN
+A[20] => INPUT_REG[49].DATAIN
+A[21] => INPUT_REG[50].DATAIN
+A[22] => INPUT_REG[51].DATAIN
+A[23] => INPUT_REG[52].DATAIN
+A[24] => INPUT_REG[53].DATAIN
+A[25] => INPUT_REG[54].DATAIN
+A[26] => INPUT_REG[55].DATAIN
+A[27] => INPUT_REG[56].DATAIN
+B[0] => INPUT_REG[1].DATAIN
+B[1] => INPUT_REG[2].DATAIN
+B[2] => INPUT_REG[3].DATAIN
+B[3] => INPUT_REG[4].DATAIN
+B[4] => INPUT_REG[5].DATAIN
+B[5] => INPUT_REG[6].DATAIN
+B[6] => INPUT_REG[7].DATAIN
+B[7] => INPUT_REG[8].DATAIN
+B[8] => INPUT_REG[9].DATAIN
+B[9] => INPUT_REG[10].DATAIN
+B[10] => INPUT_REG[11].DATAIN
+B[11] => INPUT_REG[12].DATAIN
+B[12] => INPUT_REG[13].DATAIN
+B[13] => INPUT_REG[14].DATAIN
+B[14] => INPUT_REG[15].DATAIN
+B[15] => INPUT_REG[16].DATAIN
+B[16] => INPUT_REG[17].DATAIN
+B[17] => INPUT_REG[18].DATAIN
+B[18] => INPUT_REG[19].DATAIN
+B[19] => INPUT_REG[20].DATAIN
+B[20] => INPUT_REG[21].DATAIN
+B[21] => INPUT_REG[22].DATAIN
+B[22] => INPUT_REG[23].DATAIN
+B[23] => INPUT_REG[24].DATAIN
+B[24] => INPUT_REG[25].DATAIN
+B[25] => INPUT_REG[26].DATAIN
+B[26] => INPUT_REG[27].DATAIN
+B[27] => INPUT_REG[28].DATAIN
+CIN => INPUT_REG[0].DATAIN
+CLK => OUTPUT_REG[0].CLK
+CLK => OUTPUT_REG[1].CLK
+CLK => OUTPUT_REG[2].CLK
+CLK => OUTPUT_REG[3].CLK
+CLK => OUTPUT_REG[4].CLK
+CLK => OUTPUT_REG[5].CLK
+CLK => OUTPUT_REG[6].CLK
+CLK => OUTPUT_REG[7].CLK
+CLK => OUTPUT_REG[8].CLK
+CLK => OUTPUT_REG[9].CLK
+CLK => OUTPUT_REG[10].CLK
+CLK => OUTPUT_REG[11].CLK
+CLK => OUTPUT_REG[12].CLK
+CLK => OUTPUT_REG[13].CLK
+CLK => OUTPUT_REG[14].CLK
+CLK => OUTPUT_REG[15].CLK
+CLK => OUTPUT_REG[16].CLK
+CLK => OUTPUT_REG[17].CLK
+CLK => OUTPUT_REG[18].CLK
+CLK => OUTPUT_REG[19].CLK
+CLK => OUTPUT_REG[20].CLK
+CLK => OUTPUT_REG[21].CLK
+CLK => OUTPUT_REG[22].CLK
+CLK => OUTPUT_REG[23].CLK
+CLK => OUTPUT_REG[24].CLK
+CLK => OUTPUT_REG[25].CLK
+CLK => OUTPUT_REG[26].CLK
+CLK => OUTPUT_REG[27].CLK
+CLK => OUTPUT_REG[28].CLK
+CLK => INPUT_REG[0].CLK
+CLK => INPUT_REG[1].CLK
+CLK => INPUT_REG[2].CLK
+CLK => INPUT_REG[3].CLK
+CLK => INPUT_REG[4].CLK
+CLK => INPUT_REG[5].CLK
+CLK => INPUT_REG[6].CLK
+CLK => INPUT_REG[7].CLK
+CLK => INPUT_REG[8].CLK
+CLK => INPUT_REG[9].CLK
+CLK => INPUT_REG[10].CLK
+CLK => INPUT_REG[11].CLK
+CLK => INPUT_REG[12].CLK
+CLK => INPUT_REG[13].CLK
+CLK => INPUT_REG[14].CLK
+CLK => INPUT_REG[15].CLK
+CLK => INPUT_REG[16].CLK
+CLK => INPUT_REG[17].CLK
+CLK => INPUT_REG[18].CLK
+CLK => INPUT_REG[19].CLK
+CLK => INPUT_REG[20].CLK
+CLK => INPUT_REG[21].CLK
+CLK => INPUT_REG[22].CLK
+CLK => INPUT_REG[23].CLK
+CLK => INPUT_REG[24].CLK
+CLK => INPUT_REG[25].CLK
+CLK => INPUT_REG[26].CLK
+CLK => INPUT_REG[27].CLK
+CLK => INPUT_REG[28].CLK
+CLK => INPUT_REG[29].CLK
+CLK => INPUT_REG[30].CLK
+CLK => INPUT_REG[31].CLK
+CLK => INPUT_REG[32].CLK
+CLK => INPUT_REG[33].CLK
+CLK => INPUT_REG[34].CLK
+CLK => INPUT_REG[35].CLK
+CLK => INPUT_REG[36].CLK
+CLK => INPUT_REG[37].CLK
+CLK => INPUT_REG[38].CLK
+CLK => INPUT_REG[39].CLK
+CLK => INPUT_REG[40].CLK
+CLK => INPUT_REG[41].CLK
+CLK => INPUT_REG[42].CLK
+CLK => INPUT_REG[43].CLK
+CLK => INPUT_REG[44].CLK
+CLK => INPUT_REG[45].CLK
+CLK => INPUT_REG[46].CLK
+CLK => INPUT_REG[47].CLK
+CLK => INPUT_REG[48].CLK
+CLK => INPUT_REG[49].CLK
+CLK => INPUT_REG[50].CLK
+CLK => INPUT_REG[51].CLK
+CLK => INPUT_REG[52].CLK
+CLK => INPUT_REG[53].CLK
+CLK => INPUT_REG[54].CLK
+CLK => INPUT_REG[55].CLK
+CLK => INPUT_REG[56].CLK
+RST_N => OUTPUT_REG[0].ACLR
+RST_N => OUTPUT_REG[1].ACLR
+RST_N => OUTPUT_REG[2].ACLR
+RST_N => OUTPUT_REG[3].ACLR
+RST_N => OUTPUT_REG[4].ACLR
+RST_N => OUTPUT_REG[5].ACLR
+RST_N => OUTPUT_REG[6].ACLR
+RST_N => OUTPUT_REG[7].ACLR
+RST_N => OUTPUT_REG[8].ACLR
+RST_N => OUTPUT_REG[9].ACLR
+RST_N => OUTPUT_REG[10].ACLR
+RST_N => OUTPUT_REG[11].ACLR
+RST_N => OUTPUT_REG[12].ACLR
+RST_N => OUTPUT_REG[13].ACLR
+RST_N => OUTPUT_REG[14].ACLR
+RST_N => OUTPUT_REG[15].ACLR
+RST_N => OUTPUT_REG[16].ACLR
+RST_N => OUTPUT_REG[17].ACLR
+RST_N => OUTPUT_REG[18].ACLR
+RST_N => OUTPUT_REG[19].ACLR
+RST_N => OUTPUT_REG[20].ACLR
+RST_N => OUTPUT_REG[21].ACLR
+RST_N => OUTPUT_REG[22].ACLR
+RST_N => OUTPUT_REG[23].ACLR
+RST_N => OUTPUT_REG[24].ACLR
+RST_N => OUTPUT_REG[25].ACLR
+RST_N => OUTPUT_REG[26].ACLR
+RST_N => OUTPUT_REG[27].ACLR
+RST_N => OUTPUT_REG[28].ACLR
+RST_N => INPUT_REG[0].ACLR
+RST_N => INPUT_REG[1].ACLR
+RST_N => INPUT_REG[2].ACLR
+RST_N => INPUT_REG[3].ACLR
+RST_N => INPUT_REG[4].ACLR
+RST_N => INPUT_REG[5].ACLR
+RST_N => INPUT_REG[6].ACLR
+RST_N => INPUT_REG[7].ACLR
+RST_N => INPUT_REG[8].ACLR
+RST_N => INPUT_REG[9].ACLR
+RST_N => INPUT_REG[10].ACLR
+RST_N => INPUT_REG[11].ACLR
+RST_N => INPUT_REG[12].ACLR
+RST_N => INPUT_REG[13].ACLR
+RST_N => INPUT_REG[14].ACLR
+RST_N => INPUT_REG[15].ACLR
+RST_N => INPUT_REG[16].ACLR
+RST_N => INPUT_REG[17].ACLR
+RST_N => INPUT_REG[18].ACLR
+RST_N => INPUT_REG[19].ACLR
+RST_N => INPUT_REG[20].ACLR
+RST_N => INPUT_REG[21].ACLR
+RST_N => INPUT_REG[22].ACLR
+RST_N => INPUT_REG[23].ACLR
+RST_N => INPUT_REG[24].ACLR
+RST_N => INPUT_REG[25].ACLR
+RST_N => INPUT_REG[26].ACLR
+RST_N => INPUT_REG[27].ACLR
+RST_N => INPUT_REG[28].ACLR
+RST_N => INPUT_REG[29].ACLR
+RST_N => INPUT_REG[30].ACLR
+RST_N => INPUT_REG[31].ACLR
+RST_N => INPUT_REG[32].ACLR
+RST_N => INPUT_REG[33].ACLR
+RST_N => INPUT_REG[34].ACLR
+RST_N => INPUT_REG[35].ACLR
+RST_N => INPUT_REG[36].ACLR
+RST_N => INPUT_REG[37].ACLR
+RST_N => INPUT_REG[38].ACLR
+RST_N => INPUT_REG[39].ACLR
+RST_N => INPUT_REG[40].ACLR
+RST_N => INPUT_REG[41].ACLR
+RST_N => INPUT_REG[42].ACLR
+RST_N => INPUT_REG[43].ACLR
+RST_N => INPUT_REG[44].ACLR
+RST_N => INPUT_REG[45].ACLR
+RST_N => INPUT_REG[46].ACLR
+RST_N => INPUT_REG[47].ACLR
+RST_N => INPUT_REG[48].ACLR
+RST_N => INPUT_REG[49].ACLR
+RST_N => INPUT_REG[50].ACLR
+RST_N => INPUT_REG[51].ACLR
+RST_N => INPUT_REG[52].ACLR
+RST_N => INPUT_REG[53].ACLR
+RST_N => INPUT_REG[54].ACLR
+RST_N => INPUT_REG[55].ACLR
+RST_N => INPUT_REG[56].ACLR
+SUM[0] << OUTPUT_REG[0].DB_MAX_OUTPUT_PORT_TYPE
+SUM[1] << OUTPUT_REG[1].DB_MAX_OUTPUT_PORT_TYPE
+SUM[2] << OUTPUT_REG[2].DB_MAX_OUTPUT_PORT_TYPE
+SUM[3] << OUTPUT_REG[3].DB_MAX_OUTPUT_PORT_TYPE
+SUM[4] << OUTPUT_REG[4].DB_MAX_OUTPUT_PORT_TYPE
+SUM[5] << OUTPUT_REG[5].DB_MAX_OUTPUT_PORT_TYPE
+SUM[6] << OUTPUT_REG[6].DB_MAX_OUTPUT_PORT_TYPE
+SUM[7] << OUTPUT_REG[7].DB_MAX_OUTPUT_PORT_TYPE
+SUM[8] << OUTPUT_REG[8].DB_MAX_OUTPUT_PORT_TYPE
+SUM[9] << OUTPUT_REG[9].DB_MAX_OUTPUT_PORT_TYPE
+SUM[10] << OUTPUT_REG[10].DB_MAX_OUTPUT_PORT_TYPE
+SUM[11] << OUTPUT_REG[11].DB_MAX_OUTPUT_PORT_TYPE
+SUM[12] << OUTPUT_REG[12].DB_MAX_OUTPUT_PORT_TYPE
+SUM[13] << OUTPUT_REG[13].DB_MAX_OUTPUT_PORT_TYPE
+SUM[14] << OUTPUT_REG[14].DB_MAX_OUTPUT_PORT_TYPE
+SUM[15] << OUTPUT_REG[15].DB_MAX_OUTPUT_PORT_TYPE
+SUM[16] << OUTPUT_REG[16].DB_MAX_OUTPUT_PORT_TYPE
+SUM[17] << OUTPUT_REG[17].DB_MAX_OUTPUT_PORT_TYPE
+SUM[18] << OUTPUT_REG[18].DB_MAX_OUTPUT_PORT_TYPE
+SUM[19] << OUTPUT_REG[19].DB_MAX_OUTPUT_PORT_TYPE
+SUM[20] << OUTPUT_REG[20].DB_MAX_OUTPUT_PORT_TYPE
+SUM[21] << OUTPUT_REG[21].DB_MAX_OUTPUT_PORT_TYPE
+SUM[22] << OUTPUT_REG[22].DB_MAX_OUTPUT_PORT_TYPE
+SUM[23] << OUTPUT_REG[23].DB_MAX_OUTPUT_PORT_TYPE
+SUM[24] << OUTPUT_REG[24].DB_MAX_OUTPUT_PORT_TYPE
+SUM[25] << OUTPUT_REG[25].DB_MAX_OUTPUT_PORT_TYPE
+SUM[26] << OUTPUT_REG[26].DB_MAX_OUTPUT_PORT_TYPE
+SUM[27] << OUTPUT_REG[27].DB_MAX_OUTPUT_PORT_TYPE
+COUT << OUTPUT_REG[28].DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ks24|layer_pg:u_pg
+A[0] => A[0].IN1
+A[1] => A[1].IN1
+A[2] => A[2].IN1
+A[3] => A[3].IN1
+A[4] => A[4].IN1
+A[5] => A[5].IN1
+A[6] => A[6].IN1
+A[7] => A[7].IN1
+A[8] => A[8].IN1
+A[9] => A[9].IN1
+A[10] => A[10].IN1
+A[11] => A[11].IN1
+A[12] => A[12].IN1
+A[13] => A[13].IN1
+A[14] => A[14].IN1
+A[15] => A[15].IN1
+A[16] => A[16].IN1
+A[17] => A[17].IN1
+A[18] => A[18].IN1
+A[19] => A[19].IN1
+A[20] => A[20].IN1
+A[21] => A[21].IN1
+A[22] => A[22].IN1
+A[23] => A[23].IN1
+A[24] => A[24].IN1
+A[25] => A[25].IN1
+A[26] => A[26].IN1
+A[27] => A[27].IN1
+B[0] => B[0].IN1
+B[1] => B[1].IN1
+B[2] => B[2].IN1
+B[3] => B[3].IN1
+B[4] => B[4].IN1
+B[5] => B[5].IN1
+B[6] => B[6].IN1
+B[7] => B[7].IN1
+B[8] => B[8].IN1
+B[9] => B[9].IN1
+B[10] => B[10].IN1
+B[11] => B[11].IN1
+B[12] => B[12].IN1
+B[13] => B[13].IN1
+B[14] => B[14].IN1
+B[15] => B[15].IN1
+B[16] => B[16].IN1
+B[17] => B[17].IN1
+B[18] => B[18].IN1
+B[19] => B[19].IN1
+B[20] => B[20].IN1
+B[21] => B[21].IN1
+B[22] => B[22].IN1
+B[23] => B[23].IN1
+B[24] => B[24].IN1
+B[25] => B[25].IN1
+B[26] => B[26].IN1
+B[27] => B[27].IN1
+P_OUT[0] <= pg_gen:pg_gen[0].inst.P
+P_OUT[1] <= pg_gen:pg_gen[1].inst.P
+P_OUT[2] <= pg_gen:pg_gen[2].inst.P
+P_OUT[3] <= pg_gen:pg_gen[3].inst.P
+P_OUT[4] <= pg_gen:pg_gen[4].inst.P
+P_OUT[5] <= pg_gen:pg_gen[5].inst.P
+P_OUT[6] <= pg_gen:pg_gen[6].inst.P
+P_OUT[7] <= pg_gen:pg_gen[7].inst.P
+P_OUT[8] <= pg_gen:pg_gen[8].inst.P
+P_OUT[9] <= pg_gen:pg_gen[9].inst.P
+P_OUT[10] <= pg_gen:pg_gen[10].inst.P
+P_OUT[11] <= pg_gen:pg_gen[11].inst.P
+P_OUT[12] <= pg_gen:pg_gen[12].inst.P
+P_OUT[13] <= pg_gen:pg_gen[13].inst.P
+P_OUT[14] <= pg_gen:pg_gen[14].inst.P
+P_OUT[15] <= pg_gen:pg_gen[15].inst.P
+P_OUT[16] <= pg_gen:pg_gen[16].inst.P
+P_OUT[17] <= pg_gen:pg_gen[17].inst.P
+P_OUT[18] <= pg_gen:pg_gen[18].inst.P
+P_OUT[19] <= pg_gen:pg_gen[19].inst.P
+P_OUT[20] <= pg_gen:pg_gen[20].inst.P
+P_OUT[21] <= pg_gen:pg_gen[21].inst.P
+P_OUT[22] <= pg_gen:pg_gen[22].inst.P
+P_OUT[23] <= pg_gen:pg_gen[23].inst.P
+P_OUT[24] <= pg_gen:pg_gen[24].inst.P
+P_OUT[25] <= pg_gen:pg_gen[25].inst.P
+P_OUT[26] <= pg_gen:pg_gen[26].inst.P
+P_OUT[27] <= pg_gen:pg_gen[27].inst.P
+G_OUT[0] <= pg_gen:pg_gen[0].inst.G
+G_OUT[1] <= pg_gen:pg_gen[1].inst.G
+G_OUT[2] <= pg_gen:pg_gen[2].inst.G
+G_OUT[3] <= pg_gen:pg_gen[3].inst.G
+G_OUT[4] <= pg_gen:pg_gen[4].inst.G
+G_OUT[5] <= pg_gen:pg_gen[5].inst.G
+G_OUT[6] <= pg_gen:pg_gen[6].inst.G
+G_OUT[7] <= pg_gen:pg_gen[7].inst.G
+G_OUT[8] <= pg_gen:pg_gen[8].inst.G
+G_OUT[9] <= pg_gen:pg_gen[9].inst.G
+G_OUT[10] <= pg_gen:pg_gen[10].inst.G
+G_OUT[11] <= pg_gen:pg_gen[11].inst.G
+G_OUT[12] <= pg_gen:pg_gen[12].inst.G
+G_OUT[13] <= pg_gen:pg_gen[13].inst.G
+G_OUT[14] <= pg_gen:pg_gen[14].inst.G
+G_OUT[15] <= pg_gen:pg_gen[15].inst.G
+G_OUT[16] <= pg_gen:pg_gen[16].inst.G
+G_OUT[17] <= pg_gen:pg_gen[17].inst.G
+G_OUT[18] <= pg_gen:pg_gen[18].inst.G
+G_OUT[19] <= pg_gen:pg_gen[19].inst.G
+G_OUT[20] <= pg_gen:pg_gen[20].inst.G
+G_OUT[21] <= pg_gen:pg_gen[21].inst.G
+G_OUT[22] <= pg_gen:pg_gen[22].inst.G
+G_OUT[23] <= pg_gen:pg_gen[23].inst.G
+G_OUT[24] <= pg_gen:pg_gen[24].inst.G
+G_OUT[25] <= pg_gen:pg_gen[25].inst.G
+G_OUT[26] <= pg_gen:pg_gen[26].inst.G
+G_OUT[27] <= pg_gen:pg_gen[27].inst.G
+
+
+|ks24|layer_pg:u_pg|pg_gen:pg_gen[0].inst
+A => P.IN0
+A => G.IN0
+B => P.IN1
+B => G.IN1
+P <= P.DB_MAX_OUTPUT_PORT_TYPE
+G <= G.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ks24|layer_pg:u_pg|pg_gen:pg_gen[1].inst
+A => P.IN0
+A => G.IN0
+B => P.IN1
+B => G.IN1
+P <= P.DB_MAX_OUTPUT_PORT_TYPE
+G <= G.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ks24|layer_pg:u_pg|pg_gen:pg_gen[2].inst
+A => P.IN0
+A => G.IN0
+B => P.IN1
+B => G.IN1
+P <= P.DB_MAX_OUTPUT_PORT_TYPE
+G <= G.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ks24|layer_pg:u_pg|pg_gen:pg_gen[3].inst
+A => P.IN0
+A => G.IN0
+B => P.IN1
+B => G.IN1
+P <= P.DB_MAX_OUTPUT_PORT_TYPE
+G <= G.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ks24|layer_pg:u_pg|pg_gen:pg_gen[4].inst
+A => P.IN0
+A => G.IN0
+B => P.IN1
+B => G.IN1
+P <= P.DB_MAX_OUTPUT_PORT_TYPE
+G <= G.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ks24|layer_pg:u_pg|pg_gen:pg_gen[5].inst
+A => P.IN0
+A => G.IN0
+B => P.IN1
+B => G.IN1
+P <= P.DB_MAX_OUTPUT_PORT_TYPE
+G <= G.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ks24|layer_pg:u_pg|pg_gen:pg_gen[6].inst
+A => P.IN0
+A => G.IN0
+B => P.IN1
+B => G.IN1
+P <= P.DB_MAX_OUTPUT_PORT_TYPE
+G <= G.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ks24|layer_pg:u_pg|pg_gen:pg_gen[7].inst
+A => P.IN0
+A => G.IN0
+B => P.IN1
+B => G.IN1
+P <= P.DB_MAX_OUTPUT_PORT_TYPE
+G <= G.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ks24|layer_pg:u_pg|pg_gen:pg_gen[8].inst
+A => P.IN0
+A => G.IN0
+B => P.IN1
+B => G.IN1
+P <= P.DB_MAX_OUTPUT_PORT_TYPE
+G <= G.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ks24|layer_pg:u_pg|pg_gen:pg_gen[9].inst
+A => P.IN0
+A => G.IN0
+B => P.IN1
+B => G.IN1
+P <= P.DB_MAX_OUTPUT_PORT_TYPE
+G <= G.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ks24|layer_pg:u_pg|pg_gen:pg_gen[10].inst
+A => P.IN0
+A => G.IN0
+B => P.IN1
+B => G.IN1
+P <= P.DB_MAX_OUTPUT_PORT_TYPE
+G <= G.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ks24|layer_pg:u_pg|pg_gen:pg_gen[11].inst
+A => P.IN0
+A => G.IN0
+B => P.IN1
+B => G.IN1
+P <= P.DB_MAX_OUTPUT_PORT_TYPE
+G <= G.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ks24|layer_pg:u_pg|pg_gen:pg_gen[12].inst
+A => P.IN0
+A => G.IN0
+B => P.IN1
+B => G.IN1
+P <= P.DB_MAX_OUTPUT_PORT_TYPE
+G <= G.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ks24|layer_pg:u_pg|pg_gen:pg_gen[13].inst
+A => P.IN0
+A => G.IN0
+B => P.IN1
+B => G.IN1
+P <= P.DB_MAX_OUTPUT_PORT_TYPE
+G <= G.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ks24|layer_pg:u_pg|pg_gen:pg_gen[14].inst
+A => P.IN0
+A => G.IN0
+B => P.IN1
+B => G.IN1
+P <= P.DB_MAX_OUTPUT_PORT_TYPE
+G <= G.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ks24|layer_pg:u_pg|pg_gen:pg_gen[15].inst
+A => P.IN0
+A => G.IN0
+B => P.IN1
+B => G.IN1
+P <= P.DB_MAX_OUTPUT_PORT_TYPE
+G <= G.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ks24|layer_pg:u_pg|pg_gen:pg_gen[16].inst
+A => P.IN0
+A => G.IN0
+B => P.IN1
+B => G.IN1
+P <= P.DB_MAX_OUTPUT_PORT_TYPE
+G <= G.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ks24|layer_pg:u_pg|pg_gen:pg_gen[17].inst
+A => P.IN0
+A => G.IN0
+B => P.IN1
+B => G.IN1
+P <= P.DB_MAX_OUTPUT_PORT_TYPE
+G <= G.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ks24|layer_pg:u_pg|pg_gen:pg_gen[18].inst
+A => P.IN0
+A => G.IN0
+B => P.IN1
+B => G.IN1
+P <= P.DB_MAX_OUTPUT_PORT_TYPE
+G <= G.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ks24|layer_pg:u_pg|pg_gen:pg_gen[19].inst
+A => P.IN0
+A => G.IN0
+B => P.IN1
+B => G.IN1
+P <= P.DB_MAX_OUTPUT_PORT_TYPE
+G <= G.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ks24|layer_pg:u_pg|pg_gen:pg_gen[20].inst
+A => P.IN0
+A => G.IN0
+B => P.IN1
+B => G.IN1
+P <= P.DB_MAX_OUTPUT_PORT_TYPE
+G <= G.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ks24|layer_pg:u_pg|pg_gen:pg_gen[21].inst
+A => P.IN0
+A => G.IN0
+B => P.IN1
+B => G.IN1
+P <= P.DB_MAX_OUTPUT_PORT_TYPE
+G <= G.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ks24|layer_pg:u_pg|pg_gen:pg_gen[22].inst
+A => P.IN0
+A => G.IN0
+B => P.IN1
+B => G.IN1
+P <= P.DB_MAX_OUTPUT_PORT_TYPE
+G <= G.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ks24|layer_pg:u_pg|pg_gen:pg_gen[23].inst
+A => P.IN0
+A => G.IN0
+B => P.IN1
+B => G.IN1
+P <= P.DB_MAX_OUTPUT_PORT_TYPE
+G <= G.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ks24|layer_pg:u_pg|pg_gen:pg_gen[24].inst
+A => P.IN0
+A => G.IN0
+B => P.IN1
+B => G.IN1
+P <= P.DB_MAX_OUTPUT_PORT_TYPE
+G <= G.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ks24|layer_pg:u_pg|pg_gen:pg_gen[25].inst
+A => P.IN0
+A => G.IN0
+B => P.IN1
+B => G.IN1
+P <= P.DB_MAX_OUTPUT_PORT_TYPE
+G <= G.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ks24|layer_pg:u_pg|pg_gen:pg_gen[26].inst
+A => P.IN0
+A => G.IN0
+B => P.IN1
+B => G.IN1
+P <= P.DB_MAX_OUTPUT_PORT_TYPE
+G <= G.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ks24|layer_pg:u_pg|pg_gen:pg_gen[27].inst
+A => P.IN0
+A => G.IN0
+B => P.IN1
+B => G.IN1
+P <= P.DB_MAX_OUTPUT_PORT_TYPE
+G <= G.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ks24|layer1:u_l1
+P[0] => P[0].IN2
+P[1] => P[1].IN2
+P[2] => P[2].IN2
+P[3] => P[3].IN2
+P[4] => P[4].IN2
+P[5] => P[5].IN2
+P[6] => P[6].IN2
+P[7] => P[7].IN2
+P[8] => P[8].IN2
+P[9] => P[9].IN2
+P[10] => P[10].IN2
+P[11] => P[11].IN2
+P[12] => P[12].IN2
+P[13] => P[13].IN2
+P[14] => P[14].IN2
+P[15] => P[15].IN2
+P[16] => P[16].IN2
+P[17] => P[17].IN2
+P[18] => P[18].IN2
+P[19] => P[19].IN2
+P[20] => P[20].IN2
+P[21] => P[21].IN2
+P[22] => P[22].IN2
+P[23] => P[23].IN2
+P[24] => P[24].IN2
+P[25] => P[25].IN2
+P[26] => P[26].IN2
+P[27] => P[27].IN1
+G[0] => G[0].IN2
+G[1] => G[1].IN2
+G[2] => G[2].IN2
+G[3] => G[3].IN2
+G[4] => G[4].IN2
+G[5] => G[5].IN2
+G[6] => G[6].IN2
+G[7] => G[7].IN2
+G[8] => G[8].IN2
+G[9] => G[9].IN2
+G[10] => G[10].IN2
+G[11] => G[11].IN2
+G[12] => G[12].IN2
+G[13] => G[13].IN2
+G[14] => G[14].IN2
+G[15] => G[15].IN2
+G[16] => G[16].IN2
+G[17] => G[17].IN2
+G[18] => G[18].IN2
+G[19] => G[19].IN2
+G[20] => G[20].IN2
+G[21] => G[21].IN2
+G[22] => G[22].IN2
+G[23] => G[23].IN2
+G[24] => G[24].IN2
+G[25] => G[25].IN2
+G[26] => G[26].IN2
+G[27] => G[27].IN1
+CIN => CIN.IN2
+OUTP1[1] <= black_cell:black_cell_loop[1].inst.P20
+OUTP1[2] <= black_cell:black_cell_loop[2].inst.P20
+OUTP1[3] <= black_cell:black_cell_loop[3].inst.P20
+OUTP1[4] <= black_cell:black_cell_loop[4].inst.P20
+OUTP1[5] <= black_cell:black_cell_loop[5].inst.P20
+OUTP1[6] <= black_cell:black_cell_loop[6].inst.P20
+OUTP1[7] <= black_cell:black_cell_loop[7].inst.P20
+OUTP1[8] <= black_cell:black_cell_loop[8].inst.P20
+OUTP1[9] <= black_cell:black_cell_loop[9].inst.P20
+OUTP1[10] <= black_cell:black_cell_loop[10].inst.P20
+OUTP1[11] <= black_cell:black_cell_loop[11].inst.P20
+OUTP1[12] <= black_cell:black_cell_loop[12].inst.P20
+OUTP1[13] <= black_cell:black_cell_loop[13].inst.P20
+OUTP1[14] <= black_cell:black_cell_loop[14].inst.P20
+OUTP1[15] <= black_cell:black_cell_loop[15].inst.P20
+OUTP1[16] <= black_cell:black_cell_loop[16].inst.P20
+OUTP1[17] <= black_cell:black_cell_loop[17].inst.P20
+OUTP1[18] <= black_cell:black_cell_loop[18].inst.P20
+OUTP1[19] <= black_cell:black_cell_loop[19].inst.P20
+OUTP1[20] <= black_cell:black_cell_loop[20].inst.P20
+OUTP1[21] <= black_cell:black_cell_loop[21].inst.P20
+OUTP1[22] <= black_cell:black_cell_loop[22].inst.P20
+OUTP1[23] <= black_cell:black_cell_loop[23].inst.P20
+OUTP1[24] <= black_cell:black_cell_loop[24].inst.P20
+OUTP1[25] <= black_cell:black_cell_loop[25].inst.P20
+OUTP1[26] <= black_cell:black_cell_loop[26].inst.P20
+OUTP1[27] <= black_cell:black_cell_loop[27].inst.P20
+OUTG1[0] <= gray_cell:gc1.G20
+OUTG1[1] <= black_cell:black_cell_loop[1].inst.G20
+OUTG1[2] <= black_cell:black_cell_loop[2].inst.G20
+OUTG1[3] <= black_cell:black_cell_loop[3].inst.G20
+OUTG1[4] <= black_cell:black_cell_loop[4].inst.G20
+OUTG1[5] <= black_cell:black_cell_loop[5].inst.G20
+OUTG1[6] <= black_cell:black_cell_loop[6].inst.G20
+OUTG1[7] <= black_cell:black_cell_loop[7].inst.G20
+OUTG1[8] <= black_cell:black_cell_loop[8].inst.G20
+OUTG1[9] <= black_cell:black_cell_loop[9].inst.G20
+OUTG1[10] <= black_cell:black_cell_loop[10].inst.G20
+OUTG1[11] <= black_cell:black_cell_loop[11].inst.G20
+OUTG1[12] <= black_cell:black_cell_loop[12].inst.G20
+OUTG1[13] <= black_cell:black_cell_loop[13].inst.G20
+OUTG1[14] <= black_cell:black_cell_loop[14].inst.G20
+OUTG1[15] <= black_cell:black_cell_loop[15].inst.G20
+OUTG1[16] <= black_cell:black_cell_loop[16].inst.G20
+OUTG1[17] <= black_cell:black_cell_loop[17].inst.G20
+OUTG1[18] <= black_cell:black_cell_loop[18].inst.G20
+OUTG1[19] <= black_cell:black_cell_loop[19].inst.G20
+OUTG1[20] <= black_cell:black_cell_loop[20].inst.G20
+OUTG1[21] <= black_cell:black_cell_loop[21].inst.G20
+OUTG1[22] <= black_cell:black_cell_loop[22].inst.G20
+OUTG1[23] <= black_cell:black_cell_loop[23].inst.G20
+OUTG1[24] <= black_cell:black_cell_loop[24].inst.G20
+OUTG1[25] <= black_cell:black_cell_loop[25].inst.G20
+OUTG1[26] <= black_cell:black_cell_loop[26].inst.G20
+OUTG1[27] <= black_cell:black_cell_loop[27].inst.G20
+CIN1 <= buffer:b1.Y
+
+
+|ks24|layer1:u_l1|buffer:b1
+A => Y.DATAIN
+Y <= A.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ks24|layer1:u_l1|gray_cell:gc1
+G21 => G20.IN1
+P21 => T.IN0
+G10 => T.IN1
+G20 <= G20.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ks24|layer1:u_l1|black_cell:black_cell_loop[1].inst
+G21 => G20.IN1
+P21 => T.IN0
+P21 => P20.IN0
+G10 => T.IN1
+P10 => P20.IN1
+G20 <= G20.DB_MAX_OUTPUT_PORT_TYPE
+P20 <= P20.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ks24|layer1:u_l1|black_cell:black_cell_loop[2].inst
+G21 => G20.IN1
+P21 => T.IN0
+P21 => P20.IN0
+G10 => T.IN1
+P10 => P20.IN1
+G20 <= G20.DB_MAX_OUTPUT_PORT_TYPE
+P20 <= P20.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ks24|layer1:u_l1|black_cell:black_cell_loop[3].inst
+G21 => G20.IN1
+P21 => T.IN0
+P21 => P20.IN0
+G10 => T.IN1
+P10 => P20.IN1
+G20 <= G20.DB_MAX_OUTPUT_PORT_TYPE
+P20 <= P20.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ks24|layer1:u_l1|black_cell:black_cell_loop[4].inst
+G21 => G20.IN1
+P21 => T.IN0
+P21 => P20.IN0
+G10 => T.IN1
+P10 => P20.IN1
+G20 <= G20.DB_MAX_OUTPUT_PORT_TYPE
+P20 <= P20.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ks24|layer1:u_l1|black_cell:black_cell_loop[5].inst
+G21 => G20.IN1
+P21 => T.IN0
+P21 => P20.IN0
+G10 => T.IN1
+P10 => P20.IN1
+G20 <= G20.DB_MAX_OUTPUT_PORT_TYPE
+P20 <= P20.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ks24|layer1:u_l1|black_cell:black_cell_loop[6].inst
+G21 => G20.IN1
+P21 => T.IN0
+P21 => P20.IN0
+G10 => T.IN1
+P10 => P20.IN1
+G20 <= G20.DB_MAX_OUTPUT_PORT_TYPE
+P20 <= P20.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ks24|layer1:u_l1|black_cell:black_cell_loop[7].inst
+G21 => G20.IN1
+P21 => T.IN0
+P21 => P20.IN0
+G10 => T.IN1
+P10 => P20.IN1
+G20 <= G20.DB_MAX_OUTPUT_PORT_TYPE
+P20 <= P20.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ks24|layer1:u_l1|black_cell:black_cell_loop[8].inst
+G21 => G20.IN1
+P21 => T.IN0
+P21 => P20.IN0
+G10 => T.IN1
+P10 => P20.IN1
+G20 <= G20.DB_MAX_OUTPUT_PORT_TYPE
+P20 <= P20.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ks24|layer1:u_l1|black_cell:black_cell_loop[9].inst
+G21 => G20.IN1
+P21 => T.IN0
+P21 => P20.IN0
+G10 => T.IN1
+P10 => P20.IN1
+G20 <= G20.DB_MAX_OUTPUT_PORT_TYPE
+P20 <= P20.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ks24|layer1:u_l1|black_cell:black_cell_loop[10].inst
+G21 => G20.IN1
+P21 => T.IN0
+P21 => P20.IN0
+G10 => T.IN1
+P10 => P20.IN1
+G20 <= G20.DB_MAX_OUTPUT_PORT_TYPE
+P20 <= P20.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ks24|layer1:u_l1|black_cell:black_cell_loop[11].inst
+G21 => G20.IN1
+P21 => T.IN0
+P21 => P20.IN0
+G10 => T.IN1
+P10 => P20.IN1
+G20 <= G20.DB_MAX_OUTPUT_PORT_TYPE
+P20 <= P20.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ks24|layer1:u_l1|black_cell:black_cell_loop[12].inst
+G21 => G20.IN1
+P21 => T.IN0
+P21 => P20.IN0
+G10 => T.IN1
+P10 => P20.IN1
+G20 <= G20.DB_MAX_OUTPUT_PORT_TYPE
+P20 <= P20.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ks24|layer1:u_l1|black_cell:black_cell_loop[13].inst
+G21 => G20.IN1
+P21 => T.IN0
+P21 => P20.IN0
+G10 => T.IN1
+P10 => P20.IN1
+G20 <= G20.DB_MAX_OUTPUT_PORT_TYPE
+P20 <= P20.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ks24|layer1:u_l1|black_cell:black_cell_loop[14].inst
+G21 => G20.IN1
+P21 => T.IN0
+P21 => P20.IN0
+G10 => T.IN1
+P10 => P20.IN1
+G20 <= G20.DB_MAX_OUTPUT_PORT_TYPE
+P20 <= P20.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ks24|layer1:u_l1|black_cell:black_cell_loop[15].inst
+G21 => G20.IN1
+P21 => T.IN0
+P21 => P20.IN0
+G10 => T.IN1
+P10 => P20.IN1
+G20 <= G20.DB_MAX_OUTPUT_PORT_TYPE
+P20 <= P20.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ks24|layer1:u_l1|black_cell:black_cell_loop[16].inst
+G21 => G20.IN1
+P21 => T.IN0
+P21 => P20.IN0
+G10 => T.IN1
+P10 => P20.IN1
+G20 <= G20.DB_MAX_OUTPUT_PORT_TYPE
+P20 <= P20.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ks24|layer1:u_l1|black_cell:black_cell_loop[17].inst
+G21 => G20.IN1
+P21 => T.IN0
+P21 => P20.IN0
+G10 => T.IN1
+P10 => P20.IN1
+G20 <= G20.DB_MAX_OUTPUT_PORT_TYPE
+P20 <= P20.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ks24|layer1:u_l1|black_cell:black_cell_loop[18].inst
+G21 => G20.IN1
+P21 => T.IN0
+P21 => P20.IN0
+G10 => T.IN1
+P10 => P20.IN1
+G20 <= G20.DB_MAX_OUTPUT_PORT_TYPE
+P20 <= P20.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ks24|layer1:u_l1|black_cell:black_cell_loop[19].inst
+G21 => G20.IN1
+P21 => T.IN0
+P21 => P20.IN0
+G10 => T.IN1
+P10 => P20.IN1
+G20 <= G20.DB_MAX_OUTPUT_PORT_TYPE
+P20 <= P20.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ks24|layer1:u_l1|black_cell:black_cell_loop[20].inst
+G21 => G20.IN1
+P21 => T.IN0
+P21 => P20.IN0
+G10 => T.IN1
+P10 => P20.IN1
+G20 <= G20.DB_MAX_OUTPUT_PORT_TYPE
+P20 <= P20.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ks24|layer1:u_l1|black_cell:black_cell_loop[21].inst
+G21 => G20.IN1
+P21 => T.IN0
+P21 => P20.IN0
+G10 => T.IN1
+P10 => P20.IN1
+G20 <= G20.DB_MAX_OUTPUT_PORT_TYPE
+P20 <= P20.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ks24|layer1:u_l1|black_cell:black_cell_loop[22].inst
+G21 => G20.IN1
+P21 => T.IN0
+P21 => P20.IN0
+G10 => T.IN1
+P10 => P20.IN1
+G20 <= G20.DB_MAX_OUTPUT_PORT_TYPE
+P20 <= P20.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ks24|layer1:u_l1|black_cell:black_cell_loop[23].inst
+G21 => G20.IN1
+P21 => T.IN0
+P21 => P20.IN0
+G10 => T.IN1
+P10 => P20.IN1
+G20 <= G20.DB_MAX_OUTPUT_PORT_TYPE
+P20 <= P20.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ks24|layer1:u_l1|black_cell:black_cell_loop[24].inst
+G21 => G20.IN1
+P21 => T.IN0
+P21 => P20.IN0
+G10 => T.IN1
+P10 => P20.IN1
+G20 <= G20.DB_MAX_OUTPUT_PORT_TYPE
+P20 <= P20.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ks24|layer1:u_l1|black_cell:black_cell_loop[25].inst
+G21 => G20.IN1
+P21 => T.IN0
+P21 => P20.IN0
+G10 => T.IN1
+P10 => P20.IN1
+G20 <= G20.DB_MAX_OUTPUT_PORT_TYPE
+P20 <= P20.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ks24|layer1:u_l1|black_cell:black_cell_loop[26].inst
+G21 => G20.IN1
+P21 => T.IN0
+P21 => P20.IN0
+G10 => T.IN1
+P10 => P20.IN1
+G20 <= G20.DB_MAX_OUTPUT_PORT_TYPE
+P20 <= P20.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ks24|layer1:u_l1|black_cell:black_cell_loop[27].inst
+G21 => G20.IN1
+P21 => T.IN0
+P21 => P20.IN0
+G10 => T.IN1
+P10 => P20.IN1
+G20 <= G20.DB_MAX_OUTPUT_PORT_TYPE
+P20 <= P20.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ks24|layer2:u_l2
+P[1] => P[1].IN2
+P[2] => P[2].IN2
+P[3] => P[3].IN2
+P[4] => P[4].IN2
+P[5] => P[5].IN2
+P[6] => P[6].IN2
+P[7] => P[7].IN2
+P[8] => P[8].IN2
+P[9] => P[9].IN2
+P[10] => P[10].IN2
+P[11] => P[11].IN2
+P[12] => P[12].IN2
+P[13] => P[13].IN2
+P[14] => P[14].IN2
+P[15] => P[15].IN2
+P[16] => P[16].IN2
+P[17] => P[17].IN2
+P[18] => P[18].IN2
+P[19] => P[19].IN2
+P[20] => P[20].IN2
+P[21] => P[21].IN2
+P[22] => P[22].IN2
+P[23] => P[23].IN2
+P[24] => P[24].IN2
+P[25] => P[25].IN2
+P[26] => P[26].IN1
+P[27] => P[27].IN1
+G[0] => G[0].IN2
+G[1] => G[1].IN2
+G[2] => G[2].IN2
+G[3] => G[3].IN2
+G[4] => G[4].IN2
+G[5] => G[5].IN2
+G[6] => G[6].IN2
+G[7] => G[7].IN2
+G[8] => G[8].IN2
+G[9] => G[9].IN2
+G[10] => G[10].IN2
+G[11] => G[11].IN2
+G[12] => G[12].IN2
+G[13] => G[13].IN2
+G[14] => G[14].IN2
+G[15] => G[15].IN2
+G[16] => G[16].IN2
+G[17] => G[17].IN2
+G[18] => G[18].IN2
+G[19] => G[19].IN2
+G[20] => G[20].IN2
+G[21] => G[21].IN2
+G[22] => G[22].IN2
+G[23] => G[23].IN2
+G[24] => G[24].IN2
+G[25] => G[25].IN2
+G[26] => G[26].IN1
+G[27] => G[27].IN1
+CIN => CIN.IN2
+OUTP2[3] <= black_cell:black_cell_loop[3].inst.P20
+OUTP2[4] <= black_cell:black_cell_loop[4].inst.P20
+OUTP2[5] <= black_cell:black_cell_loop[5].inst.P20
+OUTP2[6] <= black_cell:black_cell_loop[6].inst.P20
+OUTP2[7] <= black_cell:black_cell_loop[7].inst.P20
+OUTP2[8] <= black_cell:black_cell_loop[8].inst.P20
+OUTP2[9] <= black_cell:black_cell_loop[9].inst.P20
+OUTP2[10] <= black_cell:black_cell_loop[10].inst.P20
+OUTP2[11] <= black_cell:black_cell_loop[11].inst.P20
+OUTP2[12] <= black_cell:black_cell_loop[12].inst.P20
+OUTP2[13] <= black_cell:black_cell_loop[13].inst.P20
+OUTP2[14] <= black_cell:black_cell_loop[14].inst.P20
+OUTP2[15] <= black_cell:black_cell_loop[15].inst.P20
+OUTP2[16] <= black_cell:black_cell_loop[16].inst.P20
+OUTP2[17] <= black_cell:black_cell_loop[17].inst.P20
+OUTP2[18] <= black_cell:black_cell_loop[18].inst.P20
+OUTP2[19] <= black_cell:black_cell_loop[19].inst.P20
+OUTP2[20] <= black_cell:black_cell_loop[20].inst.P20
+OUTP2[21] <= black_cell:black_cell_loop[21].inst.P20
+OUTP2[22] <= black_cell:black_cell_loop[22].inst.P20
+OUTP2[23] <= black_cell:black_cell_loop[23].inst.P20
+OUTP2[24] <= black_cell:black_cell_loop[24].inst.P20
+OUTP2[25] <= black_cell:black_cell_loop[25].inst.P20
+OUTP2[26] <= black_cell:black_cell_loop[26].inst.P20
+OUTP2[27] <= black_cell:black_cell_loop[27].inst.P20
+OUTG2[0] <= buffer:b2.Y
+OUTG2[1] <= gray_cell:inst1.G20
+OUTG2[2] <= gray_cell:inst.G20
+OUTG2[3] <= black_cell:black_cell_loop[3].inst.G20
+OUTG2[4] <= black_cell:black_cell_loop[4].inst.G20
+OUTG2[5] <= black_cell:black_cell_loop[5].inst.G20
+OUTG2[6] <= black_cell:black_cell_loop[6].inst.G20
+OUTG2[7] <= black_cell:black_cell_loop[7].inst.G20
+OUTG2[8] <= black_cell:black_cell_loop[8].inst.G20
+OUTG2[9] <= black_cell:black_cell_loop[9].inst.G20
+OUTG2[10] <= black_cell:black_cell_loop[10].inst.G20
+OUTG2[11] <= black_cell:black_cell_loop[11].inst.G20
+OUTG2[12] <= black_cell:black_cell_loop[12].inst.G20
+OUTG2[13] <= black_cell:black_cell_loop[13].inst.G20
+OUTG2[14] <= black_cell:black_cell_loop[14].inst.G20
+OUTG2[15] <= black_cell:black_cell_loop[15].inst.G20
+OUTG2[16] <= black_cell:black_cell_loop[16].inst.G20
+OUTG2[17] <= black_cell:black_cell_loop[17].inst.G20
+OUTG2[18] <= black_cell:black_cell_loop[18].inst.G20
+OUTG2[19] <= black_cell:black_cell_loop[19].inst.G20
+OUTG2[20] <= black_cell:black_cell_loop[20].inst.G20
+OUTG2[21] <= black_cell:black_cell_loop[21].inst.G20
+OUTG2[22] <= black_cell:black_cell_loop[22].inst.G20
+OUTG2[23] <= black_cell:black_cell_loop[23].inst.G20
+OUTG2[24] <= black_cell:black_cell_loop[24].inst.G20
+OUTG2[25] <= black_cell:black_cell_loop[25].inst.G20
+OUTG2[26] <= black_cell:black_cell_loop[26].inst.G20
+OUTG2[27] <= black_cell:black_cell_loop[27].inst.G20
+CIN2 <= buffer:b1.Y
+
+
+|ks24|layer2:u_l2|buffer:b1
+A => Y.DATAIN
+Y <= A.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ks24|layer2:u_l2|buffer:b2
+A => Y.DATAIN
+Y <= A.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ks24|layer2:u_l2|gray_cell:inst1
+G21 => G20.IN1
+P21 => T.IN0
+G10 => T.IN1
+G20 <= G20.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ks24|layer2:u_l2|gray_cell:inst
+G21 => G20.IN1
+P21 => T.IN0
+G10 => T.IN1
+G20 <= G20.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ks24|layer2:u_l2|black_cell:black_cell_loop[3].inst
+G21 => G20.IN1
+P21 => T.IN0
+P21 => P20.IN0
+G10 => T.IN1
+P10 => P20.IN1
+G20 <= G20.DB_MAX_OUTPUT_PORT_TYPE
+P20 <= P20.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ks24|layer2:u_l2|black_cell:black_cell_loop[4].inst
+G21 => G20.IN1
+P21 => T.IN0
+P21 => P20.IN0
+G10 => T.IN1
+P10 => P20.IN1
+G20 <= G20.DB_MAX_OUTPUT_PORT_TYPE
+P20 <= P20.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ks24|layer2:u_l2|black_cell:black_cell_loop[5].inst
+G21 => G20.IN1
+P21 => T.IN0
+P21 => P20.IN0
+G10 => T.IN1
+P10 => P20.IN1
+G20 <= G20.DB_MAX_OUTPUT_PORT_TYPE
+P20 <= P20.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ks24|layer2:u_l2|black_cell:black_cell_loop[6].inst
+G21 => G20.IN1
+P21 => T.IN0
+P21 => P20.IN0
+G10 => T.IN1
+P10 => P20.IN1
+G20 <= G20.DB_MAX_OUTPUT_PORT_TYPE
+P20 <= P20.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ks24|layer2:u_l2|black_cell:black_cell_loop[7].inst
+G21 => G20.IN1
+P21 => T.IN0
+P21 => P20.IN0
+G10 => T.IN1
+P10 => P20.IN1
+G20 <= G20.DB_MAX_OUTPUT_PORT_TYPE
+P20 <= P20.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ks24|layer2:u_l2|black_cell:black_cell_loop[8].inst
+G21 => G20.IN1
+P21 => T.IN0
+P21 => P20.IN0
+G10 => T.IN1
+P10 => P20.IN1
+G20 <= G20.DB_MAX_OUTPUT_PORT_TYPE
+P20 <= P20.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ks24|layer2:u_l2|black_cell:black_cell_loop[9].inst
+G21 => G20.IN1
+P21 => T.IN0
+P21 => P20.IN0
+G10 => T.IN1
+P10 => P20.IN1
+G20 <= G20.DB_MAX_OUTPUT_PORT_TYPE
+P20 <= P20.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ks24|layer2:u_l2|black_cell:black_cell_loop[10].inst
+G21 => G20.IN1
+P21 => T.IN0
+P21 => P20.IN0
+G10 => T.IN1
+P10 => P20.IN1
+G20 <= G20.DB_MAX_OUTPUT_PORT_TYPE
+P20 <= P20.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ks24|layer2:u_l2|black_cell:black_cell_loop[11].inst
+G21 => G20.IN1
+P21 => T.IN0
+P21 => P20.IN0
+G10 => T.IN1
+P10 => P20.IN1
+G20 <= G20.DB_MAX_OUTPUT_PORT_TYPE
+P20 <= P20.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ks24|layer2:u_l2|black_cell:black_cell_loop[12].inst
+G21 => G20.IN1
+P21 => T.IN0
+P21 => P20.IN0
+G10 => T.IN1
+P10 => P20.IN1
+G20 <= G20.DB_MAX_OUTPUT_PORT_TYPE
+P20 <= P20.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ks24|layer2:u_l2|black_cell:black_cell_loop[13].inst
+G21 => G20.IN1
+P21 => T.IN0
+P21 => P20.IN0
+G10 => T.IN1
+P10 => P20.IN1
+G20 <= G20.DB_MAX_OUTPUT_PORT_TYPE
+P20 <= P20.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ks24|layer2:u_l2|black_cell:black_cell_loop[14].inst
+G21 => G20.IN1
+P21 => T.IN0
+P21 => P20.IN0
+G10 => T.IN1
+P10 => P20.IN1
+G20 <= G20.DB_MAX_OUTPUT_PORT_TYPE
+P20 <= P20.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ks24|layer2:u_l2|black_cell:black_cell_loop[15].inst
+G21 => G20.IN1
+P21 => T.IN0
+P21 => P20.IN0
+G10 => T.IN1
+P10 => P20.IN1
+G20 <= G20.DB_MAX_OUTPUT_PORT_TYPE
+P20 <= P20.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ks24|layer2:u_l2|black_cell:black_cell_loop[16].inst
+G21 => G20.IN1
+P21 => T.IN0
+P21 => P20.IN0
+G10 => T.IN1
+P10 => P20.IN1
+G20 <= G20.DB_MAX_OUTPUT_PORT_TYPE
+P20 <= P20.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ks24|layer2:u_l2|black_cell:black_cell_loop[17].inst
+G21 => G20.IN1
+P21 => T.IN0
+P21 => P20.IN0
+G10 => T.IN1
+P10 => P20.IN1
+G20 <= G20.DB_MAX_OUTPUT_PORT_TYPE
+P20 <= P20.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ks24|layer2:u_l2|black_cell:black_cell_loop[18].inst
+G21 => G20.IN1
+P21 => T.IN0
+P21 => P20.IN0
+G10 => T.IN1
+P10 => P20.IN1
+G20 <= G20.DB_MAX_OUTPUT_PORT_TYPE
+P20 <= P20.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ks24|layer2:u_l2|black_cell:black_cell_loop[19].inst
+G21 => G20.IN1
+P21 => T.IN0
+P21 => P20.IN0
+G10 => T.IN1
+P10 => P20.IN1
+G20 <= G20.DB_MAX_OUTPUT_PORT_TYPE
+P20 <= P20.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ks24|layer2:u_l2|black_cell:black_cell_loop[20].inst
+G21 => G20.IN1
+P21 => T.IN0
+P21 => P20.IN0
+G10 => T.IN1
+P10 => P20.IN1
+G20 <= G20.DB_MAX_OUTPUT_PORT_TYPE
+P20 <= P20.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ks24|layer2:u_l2|black_cell:black_cell_loop[21].inst
+G21 => G20.IN1
+P21 => T.IN0
+P21 => P20.IN0
+G10 => T.IN1
+P10 => P20.IN1
+G20 <= G20.DB_MAX_OUTPUT_PORT_TYPE
+P20 <= P20.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ks24|layer2:u_l2|black_cell:black_cell_loop[22].inst
+G21 => G20.IN1
+P21 => T.IN0
+P21 => P20.IN0
+G10 => T.IN1
+P10 => P20.IN1
+G20 <= G20.DB_MAX_OUTPUT_PORT_TYPE
+P20 <= P20.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ks24|layer2:u_l2|black_cell:black_cell_loop[23].inst
+G21 => G20.IN1
+P21 => T.IN0
+P21 => P20.IN0
+G10 => T.IN1
+P10 => P20.IN1
+G20 <= G20.DB_MAX_OUTPUT_PORT_TYPE
+P20 <= P20.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ks24|layer2:u_l2|black_cell:black_cell_loop[24].inst
+G21 => G20.IN1
+P21 => T.IN0
+P21 => P20.IN0
+G10 => T.IN1
+P10 => P20.IN1
+G20 <= G20.DB_MAX_OUTPUT_PORT_TYPE
+P20 <= P20.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ks24|layer2:u_l2|black_cell:black_cell_loop[25].inst
+G21 => G20.IN1
+P21 => T.IN0
+P21 => P20.IN0
+G10 => T.IN1
+P10 => P20.IN1
+G20 <= G20.DB_MAX_OUTPUT_PORT_TYPE
+P20 <= P20.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ks24|layer2:u_l2|black_cell:black_cell_loop[26].inst
+G21 => G20.IN1
+P21 => T.IN0
+P21 => P20.IN0
+G10 => T.IN1
+P10 => P20.IN1
+G20 <= G20.DB_MAX_OUTPUT_PORT_TYPE
+P20 <= P20.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ks24|layer2:u_l2|black_cell:black_cell_loop[27].inst
+G21 => G20.IN1
+P21 => T.IN0
+P21 => P20.IN0
+G10 => T.IN1
+P10 => P20.IN1
+G20 <= G20.DB_MAX_OUTPUT_PORT_TYPE
+P20 <= P20.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ks24|layer4:u_l4
+P[3] => P[3].IN2
+P[4] => P[4].IN2
+P[5] => P[5].IN2
+P[6] => P[6].IN2
+P[7] => P[7].IN2
+P[8] => P[8].IN2
+P[9] => P[9].IN2
+P[10] => P[10].IN2
+P[11] => P[11].IN2
+P[12] => P[12].IN2
+P[13] => P[13].IN2
+P[14] => P[14].IN2
+P[15] => P[15].IN2
+P[16] => P[16].IN2
+P[17] => P[17].IN2
+P[18] => P[18].IN2
+P[19] => P[19].IN2
+P[20] => P[20].IN2
+P[21] => P[21].IN2
+P[22] => P[22].IN2
+P[23] => P[23].IN2
+P[24] => P[24].IN1
+P[25] => P[25].IN1
+P[26] => P[26].IN1
+P[27] => P[27].IN1
+G[0] => G[0].IN2
+G[1] => G[1].IN2
+G[2] => G[2].IN2
+G[3] => G[3].IN2
+G[4] => G[4].IN2
+G[5] => G[5].IN2
+G[6] => G[6].IN2
+G[7] => G[7].IN2
+G[8] => G[8].IN2
+G[9] => G[9].IN2
+G[10] => G[10].IN2
+G[11] => G[11].IN2
+G[12] => G[12].IN2
+G[13] => G[13].IN2
+G[14] => G[14].IN2
+G[15] => G[15].IN2
+G[16] => G[16].IN2
+G[17] => G[17].IN2
+G[18] => G[18].IN2
+G[19] => G[19].IN2
+G[20] => G[20].IN2
+G[21] => G[21].IN2
+G[22] => G[22].IN2
+G[23] => G[23].IN2
+G[24] => G[24].IN1
+G[25] => G[25].IN1
+G[26] => G[26].IN1
+G[27] => G[27].IN1
+CIN => CIN.IN2
+OUTP4[7] <= black_cell:black_cell_loop[7].inst.P20
+OUTP4[8] <= black_cell:black_cell_loop[8].inst.P20
+OUTP4[9] <= black_cell:black_cell_loop[9].inst.P20
+OUTP4[10] <= black_cell:black_cell_loop[10].inst.P20
+OUTP4[11] <= black_cell:black_cell_loop[11].inst.P20
+OUTP4[12] <= black_cell:black_cell_loop[12].inst.P20
+OUTP4[13] <= black_cell:black_cell_loop[13].inst.P20
+OUTP4[14] <= black_cell:black_cell_loop[14].inst.P20
+OUTP4[15] <= black_cell:black_cell_loop[15].inst.P20
+OUTP4[16] <= black_cell:black_cell_loop[16].inst.P20
+OUTP4[17] <= black_cell:black_cell_loop[17].inst.P20
+OUTP4[18] <= black_cell:black_cell_loop[18].inst.P20
+OUTP4[19] <= black_cell:black_cell_loop[19].inst.P20
+OUTP4[20] <= black_cell:black_cell_loop[20].inst.P20
+OUTP4[21] <= black_cell:black_cell_loop[21].inst.P20
+OUTP4[22] <= black_cell:black_cell_loop[22].inst.P20
+OUTP4[23] <= black_cell:black_cell_loop[23].inst.P20
+OUTP4[24] <= black_cell:black_cell_loop[24].inst.P20
+OUTP4[25] <= black_cell:black_cell_loop[25].inst.P20
+OUTP4[26] <= black_cell:black_cell_loop[26].inst.P20
+OUTP4[27] <= black_cell:black_cell_loop[27].inst.P20
+OUTG4[0] <= buffer:buffer_loop[0].inst1.Y
+OUTG4[1] <= buffer:buffer_loop[1].inst1.Y
+OUTG4[2] <= buffer:buffer_loop[2].inst1.Y
+OUTG4[3] <= gray_cell:inst1.G20
+OUTG4[4] <= gray_cell:gray_cell_loop[4].inst.G20
+OUTG4[5] <= gray_cell:gray_cell_loop[5].inst.G20
+OUTG4[6] <= gray_cell:gray_cell_loop[6].inst.G20
+OUTG4[7] <= black_cell:black_cell_loop[7].inst.G20
+OUTG4[8] <= black_cell:black_cell_loop[8].inst.G20
+OUTG4[9] <= black_cell:black_cell_loop[9].inst.G20
+OUTG4[10] <= black_cell:black_cell_loop[10].inst.G20
+OUTG4[11] <= black_cell:black_cell_loop[11].inst.G20
+OUTG4[12] <= black_cell:black_cell_loop[12].inst.G20
+OUTG4[13] <= black_cell:black_cell_loop[13].inst.G20
+OUTG4[14] <= black_cell:black_cell_loop[14].inst.G20
+OUTG4[15] <= black_cell:black_cell_loop[15].inst.G20
+OUTG4[16] <= black_cell:black_cell_loop[16].inst.G20
+OUTG4[17] <= black_cell:black_cell_loop[17].inst.G20
+OUTG4[18] <= black_cell:black_cell_loop[18].inst.G20
+OUTG4[19] <= black_cell:black_cell_loop[19].inst.G20
+OUTG4[20] <= black_cell:black_cell_loop[20].inst.G20
+OUTG4[21] <= black_cell:black_cell_loop[21].inst.G20
+OUTG4[22] <= black_cell:black_cell_loop[22].inst.G20
+OUTG4[23] <= black_cell:black_cell_loop[23].inst.G20
+OUTG4[24] <= black_cell:black_cell_loop[24].inst.G20
+OUTG4[25] <= black_cell:black_cell_loop[25].inst.G20
+OUTG4[26] <= black_cell:black_cell_loop[26].inst.G20
+OUTG4[27] <= black_cell:black_cell_loop[27].inst.G20
+CIN4 <= buffer:b1.Y
+
+
+|ks24|layer4:u_l4|buffer:b1
+A => Y.DATAIN
+Y <= A.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ks24|layer4:u_l4|buffer:buffer_loop[0].inst1
+A => Y.DATAIN
+Y <= A.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ks24|layer4:u_l4|buffer:buffer_loop[1].inst1
+A => Y.DATAIN
+Y <= A.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ks24|layer4:u_l4|buffer:buffer_loop[2].inst1
+A => Y.DATAIN
+Y <= A.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ks24|layer4:u_l4|gray_cell:inst1
+G21 => G20.IN1
+P21 => T.IN0
+G10 => T.IN1
+G20 <= G20.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ks24|layer4:u_l4|gray_cell:gray_cell_loop[4].inst
+G21 => G20.IN1
+P21 => T.IN0
+G10 => T.IN1
+G20 <= G20.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ks24|layer4:u_l4|gray_cell:gray_cell_loop[5].inst
+G21 => G20.IN1
+P21 => T.IN0
+G10 => T.IN1
+G20 <= G20.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ks24|layer4:u_l4|gray_cell:gray_cell_loop[6].inst
+G21 => G20.IN1
+P21 => T.IN0
+G10 => T.IN1
+G20 <= G20.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ks24|layer4:u_l4|black_cell:black_cell_loop[7].inst
+G21 => G20.IN1
+P21 => T.IN0
+P21 => P20.IN0
+G10 => T.IN1
+P10 => P20.IN1
+G20 <= G20.DB_MAX_OUTPUT_PORT_TYPE
+P20 <= P20.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ks24|layer4:u_l4|black_cell:black_cell_loop[8].inst
+G21 => G20.IN1
+P21 => T.IN0
+P21 => P20.IN0
+G10 => T.IN1
+P10 => P20.IN1
+G20 <= G20.DB_MAX_OUTPUT_PORT_TYPE
+P20 <= P20.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ks24|layer4:u_l4|black_cell:black_cell_loop[9].inst
+G21 => G20.IN1
+P21 => T.IN0
+P21 => P20.IN0
+G10 => T.IN1
+P10 => P20.IN1
+G20 <= G20.DB_MAX_OUTPUT_PORT_TYPE
+P20 <= P20.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ks24|layer4:u_l4|black_cell:black_cell_loop[10].inst
+G21 => G20.IN1
+P21 => T.IN0
+P21 => P20.IN0
+G10 => T.IN1
+P10 => P20.IN1
+G20 <= G20.DB_MAX_OUTPUT_PORT_TYPE
+P20 <= P20.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ks24|layer4:u_l4|black_cell:black_cell_loop[11].inst
+G21 => G20.IN1
+P21 => T.IN0
+P21 => P20.IN0
+G10 => T.IN1
+P10 => P20.IN1
+G20 <= G20.DB_MAX_OUTPUT_PORT_TYPE
+P20 <= P20.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ks24|layer4:u_l4|black_cell:black_cell_loop[12].inst
+G21 => G20.IN1
+P21 => T.IN0
+P21 => P20.IN0
+G10 => T.IN1
+P10 => P20.IN1
+G20 <= G20.DB_MAX_OUTPUT_PORT_TYPE
+P20 <= P20.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ks24|layer4:u_l4|black_cell:black_cell_loop[13].inst
+G21 => G20.IN1
+P21 => T.IN0
+P21 => P20.IN0
+G10 => T.IN1
+P10 => P20.IN1
+G20 <= G20.DB_MAX_OUTPUT_PORT_TYPE
+P20 <= P20.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ks24|layer4:u_l4|black_cell:black_cell_loop[14].inst
+G21 => G20.IN1
+P21 => T.IN0
+P21 => P20.IN0
+G10 => T.IN1
+P10 => P20.IN1
+G20 <= G20.DB_MAX_OUTPUT_PORT_TYPE
+P20 <= P20.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ks24|layer4:u_l4|black_cell:black_cell_loop[15].inst
+G21 => G20.IN1
+P21 => T.IN0
+P21 => P20.IN0
+G10 => T.IN1
+P10 => P20.IN1
+G20 <= G20.DB_MAX_OUTPUT_PORT_TYPE
+P20 <= P20.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ks24|layer4:u_l4|black_cell:black_cell_loop[16].inst
+G21 => G20.IN1
+P21 => T.IN0
+P21 => P20.IN0
+G10 => T.IN1
+P10 => P20.IN1
+G20 <= G20.DB_MAX_OUTPUT_PORT_TYPE
+P20 <= P20.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ks24|layer4:u_l4|black_cell:black_cell_loop[17].inst
+G21 => G20.IN1
+P21 => T.IN0
+P21 => P20.IN0
+G10 => T.IN1
+P10 => P20.IN1
+G20 <= G20.DB_MAX_OUTPUT_PORT_TYPE
+P20 <= P20.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ks24|layer4:u_l4|black_cell:black_cell_loop[18].inst
+G21 => G20.IN1
+P21 => T.IN0
+P21 => P20.IN0
+G10 => T.IN1
+P10 => P20.IN1
+G20 <= G20.DB_MAX_OUTPUT_PORT_TYPE
+P20 <= P20.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ks24|layer4:u_l4|black_cell:black_cell_loop[19].inst
+G21 => G20.IN1
+P21 => T.IN0
+P21 => P20.IN0
+G10 => T.IN1
+P10 => P20.IN1
+G20 <= G20.DB_MAX_OUTPUT_PORT_TYPE
+P20 <= P20.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ks24|layer4:u_l4|black_cell:black_cell_loop[20].inst
+G21 => G20.IN1
+P21 => T.IN0
+P21 => P20.IN0
+G10 => T.IN1
+P10 => P20.IN1
+G20 <= G20.DB_MAX_OUTPUT_PORT_TYPE
+P20 <= P20.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ks24|layer4:u_l4|black_cell:black_cell_loop[21].inst
+G21 => G20.IN1
+P21 => T.IN0
+P21 => P20.IN0
+G10 => T.IN1
+P10 => P20.IN1
+G20 <= G20.DB_MAX_OUTPUT_PORT_TYPE
+P20 <= P20.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ks24|layer4:u_l4|black_cell:black_cell_loop[22].inst
+G21 => G20.IN1
+P21 => T.IN0
+P21 => P20.IN0
+G10 => T.IN1
+P10 => P20.IN1
+G20 <= G20.DB_MAX_OUTPUT_PORT_TYPE
+P20 <= P20.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ks24|layer4:u_l4|black_cell:black_cell_loop[23].inst
+G21 => G20.IN1
+P21 => T.IN0
+P21 => P20.IN0
+G10 => T.IN1
+P10 => P20.IN1
+G20 <= G20.DB_MAX_OUTPUT_PORT_TYPE
+P20 <= P20.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ks24|layer4:u_l4|black_cell:black_cell_loop[24].inst
+G21 => G20.IN1
+P21 => T.IN0
+P21 => P20.IN0
+G10 => T.IN1
+P10 => P20.IN1
+G20 <= G20.DB_MAX_OUTPUT_PORT_TYPE
+P20 <= P20.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ks24|layer4:u_l4|black_cell:black_cell_loop[25].inst
+G21 => G20.IN1
+P21 => T.IN0
+P21 => P20.IN0
+G10 => T.IN1
+P10 => P20.IN1
+G20 <= G20.DB_MAX_OUTPUT_PORT_TYPE
+P20 <= P20.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ks24|layer4:u_l4|black_cell:black_cell_loop[26].inst
+G21 => G20.IN1
+P21 => T.IN0
+P21 => P20.IN0
+G10 => T.IN1
+P10 => P20.IN1
+G20 <= G20.DB_MAX_OUTPUT_PORT_TYPE
+P20 <= P20.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ks24|layer4:u_l4|black_cell:black_cell_loop[27].inst
+G21 => G20.IN1
+P21 => T.IN0
+P21 => P20.IN0
+G10 => T.IN1
+P10 => P20.IN1
+G20 <= G20.DB_MAX_OUTPUT_PORT_TYPE
+P20 <= P20.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ks24|layer8:u_l8
+G[0] => G[0].IN1
+G[1] => G[1].IN2
+G[2] => G[2].IN2
+G[3] => G[3].IN2
+G[4] => G[4].IN2
+G[5] => G[5].IN2
+G[6] => G[6].IN2
+G[7] => G[7].IN2
+G[8] => G[8].IN2
+G[9] => G[9].IN2
+G[10] => G[10].IN2
+G[11] => G[11].IN2
+G[12] => G[12].IN2
+G[13] => G[13].IN2
+G[14] => G[14].IN2
+G[15] => G[15].IN2
+G[16] => G[16].IN1
+G[17] => G[17].IN1
+G[18] => G[18].IN1
+G[19] => G[19].IN1
+G[20] => G[20].IN1
+G[21] => G[21].IN1
+G[22] => G[22].IN1
+G[23] => G[23].IN1
+G[24] => G[24].IN1
+G[25] => G[25].IN1
+G[26] => G[26].IN1
+G[27] => G[27].IN1
+P[8] => P[8].IN1
+P[9] => P[9].IN1
+P[10] => P[10].IN1
+P[11] => P[11].IN1
+P[12] => P[12].IN1
+P[13] => P[13].IN1
+P[14] => P[14].IN1
+P[15] => P[15].IN1
+P[16] => P[16].IN2
+P[17] => P[17].IN2
+P[18] => P[18].IN2
+P[19] => P[19].IN2
+P[20] => P[20].IN2
+P[21] => P[21].IN2
+P[22] => P[22].IN2
+P[23] => P[23].IN2
+P[24] => P[24].IN1
+P[25] => P[25].IN1
+P[26] => P[26].IN1
+P[27] => P[27].IN1
+CIN => CIN.IN2
+OUTG8[0] <= buffer:g_low[0].b.Y
+OUTG8[1] <= buffer:g_low[1].b.Y
+OUTG8[2] <= buffer:g_low[2].b.Y
+OUTG8[3] <= buffer:g_low[3].b.Y
+OUTG8[4] <= buffer:g_low[4].b.Y
+OUTG8[5] <= buffer:g_low[5].b.Y
+OUTG8[6] <= buffer:g_low[6].b.Y
+OUTG8[7] <= buffer:g_low[7].b.Y
+OUTG8[8] <= gray_cell:gc8.G20
+OUTG8[9] <= gray_cell:gray_high[9].gc.G20
+OUTG8[10] <= gray_cell:gray_high[10].gc.G20
+OUTG8[11] <= gray_cell:gray_high[11].gc.G20
+OUTG8[12] <= gray_cell:gray_high[12].gc.G20
+OUTG8[13] <= gray_cell:gray_high[13].gc.G20
+OUTG8[14] <= gray_cell:gray_high[14].gc.G20
+OUTG8[15] <= gray_cell:gray_high[15].gc.G20
+OUTG8[16] <= gray_cell:gray_high[16].gc.G20
+OUTG8[17] <= gray_cell:gray_high[17].gc.G20
+OUTG8[18] <= gray_cell:gray_high[18].gc.G20
+OUTG8[19] <= gray_cell:gray_high[19].gc.G20
+OUTG8[20] <= gray_cell:gray_high[20].gc.G20
+OUTG8[21] <= gray_cell:gray_high[21].gc.G20
+OUTG8[22] <= gray_cell:gray_high[22].gc.G20
+OUTG8[23] <= gray_cell:gray_high[23].gc.G20
+OUTG8[24] <= buffer:g_forward[24].bf.Y
+OUTG8[25] <= buffer:g_forward[25].bf.Y
+OUTG8[26] <= buffer:g_forward[26].bf.Y
+OUTG8[27] <= buffer:g_forward[27].bf.Y
+OUTP8[16] <= buffer:p_out[16].pb.Y
+OUTP8[17] <= buffer:p_out[17].pb.Y
+OUTP8[18] <= buffer:p_out[18].pb.Y
+OUTP8[19] <= buffer:p_out[19].pb.Y
+OUTP8[20] <= buffer:p_out[20].pb.Y
+OUTP8[21] <= buffer:p_out[21].pb.Y
+OUTP8[22] <= buffer:p_out[22].pb.Y
+OUTP8[23] <= buffer:p_out[23].pb.Y
+OUTP8[24] <= buffer:p_out[24].pb.Y
+OUTP8[25] <= buffer:p_out[25].pb.Y
+OUTP8[26] <= buffer:p_out[26].pb.Y
+OUTP8[27] <= buffer:p_out[27].pb.Y
+CIN8 <= buffer:bcin.Y
+
+
+|ks24|layer8:u_l8|buffer:bcin
+A => Y.DATAIN
+Y <= A.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ks24|layer8:u_l8|buffer:g_low[0].b
+A => Y.DATAIN
+Y <= A.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ks24|layer8:u_l8|buffer:g_low[1].b
+A => Y.DATAIN
+Y <= A.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ks24|layer8:u_l8|buffer:g_low[2].b
+A => Y.DATAIN
+Y <= A.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ks24|layer8:u_l8|buffer:g_low[3].b
+A => Y.DATAIN
+Y <= A.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ks24|layer8:u_l8|buffer:g_low[4].b
+A => Y.DATAIN
+Y <= A.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ks24|layer8:u_l8|buffer:g_low[5].b
+A => Y.DATAIN
+Y <= A.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ks24|layer8:u_l8|buffer:g_low[6].b
+A => Y.DATAIN
+Y <= A.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ks24|layer8:u_l8|buffer:g_low[7].b
+A => Y.DATAIN
+Y <= A.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ks24|layer8:u_l8|gray_cell:gc8
+G21 => G20.IN1
+P21 => T.IN0
+G10 => T.IN1
+G20 <= G20.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ks24|layer8:u_l8|gray_cell:gray_high[9].gc
+G21 => G20.IN1
+P21 => T.IN0
+G10 => T.IN1
+G20 <= G20.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ks24|layer8:u_l8|gray_cell:gray_high[10].gc
+G21 => G20.IN1
+P21 => T.IN0
+G10 => T.IN1
+G20 <= G20.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ks24|layer8:u_l8|gray_cell:gray_high[11].gc
+G21 => G20.IN1
+P21 => T.IN0
+G10 => T.IN1
+G20 <= G20.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ks24|layer8:u_l8|gray_cell:gray_high[12].gc
+G21 => G20.IN1
+P21 => T.IN0
+G10 => T.IN1
+G20 <= G20.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ks24|layer8:u_l8|gray_cell:gray_high[13].gc
+G21 => G20.IN1
+P21 => T.IN0
+G10 => T.IN1
+G20 <= G20.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ks24|layer8:u_l8|gray_cell:gray_high[14].gc
+G21 => G20.IN1
+P21 => T.IN0
+G10 => T.IN1
+G20 <= G20.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ks24|layer8:u_l8|gray_cell:gray_high[15].gc
+G21 => G20.IN1
+P21 => T.IN0
+G10 => T.IN1
+G20 <= G20.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ks24|layer8:u_l8|gray_cell:gray_high[16].gc
+G21 => G20.IN1
+P21 => T.IN0
+G10 => T.IN1
+G20 <= G20.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ks24|layer8:u_l8|gray_cell:gray_high[17].gc
+G21 => G20.IN1
+P21 => T.IN0
+G10 => T.IN1
+G20 <= G20.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ks24|layer8:u_l8|gray_cell:gray_high[18].gc
+G21 => G20.IN1
+P21 => T.IN0
+G10 => T.IN1
+G20 <= G20.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ks24|layer8:u_l8|gray_cell:gray_high[19].gc
+G21 => G20.IN1
+P21 => T.IN0
+G10 => T.IN1
+G20 <= G20.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ks24|layer8:u_l8|gray_cell:gray_high[20].gc
+G21 => G20.IN1
+P21 => T.IN0
+G10 => T.IN1
+G20 <= G20.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ks24|layer8:u_l8|gray_cell:gray_high[21].gc
+G21 => G20.IN1
+P21 => T.IN0
+G10 => T.IN1
+G20 <= G20.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ks24|layer8:u_l8|gray_cell:gray_high[22].gc
+G21 => G20.IN1
+P21 => T.IN0
+G10 => T.IN1
+G20 <= G20.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ks24|layer8:u_l8|gray_cell:gray_high[23].gc
+G21 => G20.IN1
+P21 => T.IN0
+G10 => T.IN1
+G20 <= G20.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ks24|layer8:u_l8|buffer:g_forward[24].bf
+A => Y.DATAIN
+Y <= A.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ks24|layer8:u_l8|buffer:g_forward[25].bf
+A => Y.DATAIN
+Y <= A.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ks24|layer8:u_l8|buffer:g_forward[26].bf
+A => Y.DATAIN
+Y <= A.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ks24|layer8:u_l8|buffer:g_forward[27].bf
+A => Y.DATAIN
+Y <= A.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ks24|layer8:u_l8|buffer:p_out[16].pb
+A => Y.DATAIN
+Y <= A.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ks24|layer8:u_l8|buffer:p_out[17].pb
+A => Y.DATAIN
+Y <= A.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ks24|layer8:u_l8|buffer:p_out[18].pb
+A => Y.DATAIN
+Y <= A.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ks24|layer8:u_l8|buffer:p_out[19].pb
+A => Y.DATAIN
+Y <= A.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ks24|layer8:u_l8|buffer:p_out[20].pb
+A => Y.DATAIN
+Y <= A.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ks24|layer8:u_l8|buffer:p_out[21].pb
+A => Y.DATAIN
+Y <= A.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ks24|layer8:u_l8|buffer:p_out[22].pb
+A => Y.DATAIN
+Y <= A.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ks24|layer8:u_l8|buffer:p_out[23].pb
+A => Y.DATAIN
+Y <= A.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ks24|layer8:u_l8|buffer:p_out[24].pb
+A => Y.DATAIN
+Y <= A.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ks24|layer8:u_l8|buffer:p_out[25].pb
+A => Y.DATAIN
+Y <= A.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ks24|layer8:u_l8|buffer:p_out[26].pb
+A => Y.DATAIN
+Y <= A.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ks24|layer8:u_l8|buffer:p_out[27].pb
+A => Y.DATAIN
+Y <= A.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ks24|layer16:u_l16
+G[0] => G[0].IN1
+G[1] => G[1].IN2
+G[2] => G[2].IN2
+G[3] => G[3].IN2
+G[4] => G[4].IN2
+G[5] => G[5].IN2
+G[6] => G[6].IN2
+G[7] => G[7].IN2
+G[8] => G[8].IN2
+G[9] => G[9].IN2
+G[10] => G[10].IN2
+G[11] => G[11].IN2
+G[12] => G[12].IN1
+G[13] => G[13].IN1
+G[14] => G[14].IN1
+G[15] => G[15].IN1
+G[16] => G[16].IN1
+G[17] => G[17].IN1
+G[18] => G[18].IN1
+G[19] => G[19].IN1
+G[20] => G[20].IN1
+G[21] => G[21].IN1
+G[22] => G[22].IN1
+G[23] => G[23].IN1
+G[24] => G[24].IN1
+G[25] => G[25].IN1
+G[26] => G[26].IN1
+G[27] => G[27].IN1
+P[16] => P[16].IN2
+P[17] => P[17].IN2
+P[18] => P[18].IN2
+P[19] => P[19].IN2
+P[20] => P[20].IN2
+P[21] => P[21].IN2
+P[22] => P[22].IN2
+P[23] => P[23].IN2
+P[24] => P[24].IN2
+P[25] => P[25].IN2
+P[26] => P[26].IN2
+P[27] => P[27].IN2
+CIN => CIN.IN2
+CIN16 <= buffer:b1.Y
+OUTG16[0] <= buffer:g_low[0].gbuf.Y
+OUTG16[1] <= buffer:g_low[1].gbuf.Y
+OUTG16[2] <= buffer:g_low[2].gbuf.Y
+OUTG16[3] <= buffer:g_low[3].gbuf.Y
+OUTG16[4] <= buffer:g_low[4].gbuf.Y
+OUTG16[5] <= buffer:g_low[5].gbuf.Y
+OUTG16[6] <= buffer:g_low[6].gbuf.Y
+OUTG16[7] <= buffer:g_low[7].gbuf.Y
+OUTG16[8] <= buffer:g_low[8].gbuf.Y
+OUTG16[9] <= buffer:g_low[9].gbuf.Y
+OUTG16[10] <= buffer:g_low[10].gbuf.Y
+OUTG16[11] <= buffer:g_low[11].gbuf.Y
+OUTG16[12] <= buffer:g_low[12].gbuf.Y
+OUTG16[13] <= buffer:g_low[13].gbuf.Y
+OUTG16[14] <= buffer:g_low[14].gbuf.Y
+OUTG16[15] <= buffer:g_low[15].gbuf.Y
+OUTG16[16] <= gray_cell:gc16.G20
+OUTG16[17] <= gray_cell:g_high[17].inst.G20
+OUTG16[18] <= gray_cell:g_high[18].inst.G20
+OUTG16[19] <= gray_cell:g_high[19].inst.G20
+OUTG16[20] <= gray_cell:g_high[20].inst.G20
+OUTG16[21] <= gray_cell:g_high[21].inst.G20
+OUTG16[22] <= gray_cell:g_high[22].inst.G20
+OUTG16[23] <= gray_cell:g_high[23].inst.G20
+OUTG16[24] <= gray_cell:g_high[24].inst.G20
+OUTG16[25] <= gray_cell:g_high[25].inst.G20
+OUTG16[26] <= gray_cell:g_high[26].inst.G20
+OUTG16[27] <= gray_cell:g_high[27].inst.G20
+OUTP16[16] <= buffer:p_out[16].pbuf.Y
+OUTP16[17] <= buffer:p_out[17].pbuf.Y
+OUTP16[18] <= buffer:p_out[18].pbuf.Y
+OUTP16[19] <= buffer:p_out[19].pbuf.Y
+OUTP16[20] <= buffer:p_out[20].pbuf.Y
+OUTP16[21] <= buffer:p_out[21].pbuf.Y
+OUTP16[22] <= buffer:p_out[22].pbuf.Y
+OUTP16[23] <= buffer:p_out[23].pbuf.Y
+OUTP16[24] <= buffer:p_out[24].pbuf.Y
+OUTP16[25] <= buffer:p_out[25].pbuf.Y
+OUTP16[26] <= buffer:p_out[26].pbuf.Y
+OUTP16[27] <= buffer:p_out[27].pbuf.Y
+
+
+|ks24|layer16:u_l16|buffer:b1
+A => Y.DATAIN
+Y <= A.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ks24|layer16:u_l16|buffer:g_low[0].gbuf
+A => Y.DATAIN
+Y <= A.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ks24|layer16:u_l16|buffer:g_low[1].gbuf
+A => Y.DATAIN
+Y <= A.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ks24|layer16:u_l16|buffer:g_low[2].gbuf
+A => Y.DATAIN
+Y <= A.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ks24|layer16:u_l16|buffer:g_low[3].gbuf
+A => Y.DATAIN
+Y <= A.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ks24|layer16:u_l16|buffer:g_low[4].gbuf
+A => Y.DATAIN
+Y <= A.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ks24|layer16:u_l16|buffer:g_low[5].gbuf
+A => Y.DATAIN
+Y <= A.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ks24|layer16:u_l16|buffer:g_low[6].gbuf
+A => Y.DATAIN
+Y <= A.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ks24|layer16:u_l16|buffer:g_low[7].gbuf
+A => Y.DATAIN
+Y <= A.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ks24|layer16:u_l16|buffer:g_low[8].gbuf
+A => Y.DATAIN
+Y <= A.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ks24|layer16:u_l16|buffer:g_low[9].gbuf
+A => Y.DATAIN
+Y <= A.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ks24|layer16:u_l16|buffer:g_low[10].gbuf
+A => Y.DATAIN
+Y <= A.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ks24|layer16:u_l16|buffer:g_low[11].gbuf
+A => Y.DATAIN
+Y <= A.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ks24|layer16:u_l16|buffer:g_low[12].gbuf
+A => Y.DATAIN
+Y <= A.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ks24|layer16:u_l16|buffer:g_low[13].gbuf
+A => Y.DATAIN
+Y <= A.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ks24|layer16:u_l16|buffer:g_low[14].gbuf
+A => Y.DATAIN
+Y <= A.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ks24|layer16:u_l16|buffer:g_low[15].gbuf
+A => Y.DATAIN
+Y <= A.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ks24|layer16:u_l16|gray_cell:gc16
+G21 => G20.IN1
+P21 => T.IN0
+G10 => T.IN1
+G20 <= G20.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ks24|layer16:u_l16|gray_cell:g_high[17].inst
+G21 => G20.IN1
+P21 => T.IN0
+G10 => T.IN1
+G20 <= G20.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ks24|layer16:u_l16|gray_cell:g_high[18].inst
+G21 => G20.IN1
+P21 => T.IN0
+G10 => T.IN1
+G20 <= G20.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ks24|layer16:u_l16|gray_cell:g_high[19].inst
+G21 => G20.IN1
+P21 => T.IN0
+G10 => T.IN1
+G20 <= G20.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ks24|layer16:u_l16|gray_cell:g_high[20].inst
+G21 => G20.IN1
+P21 => T.IN0
+G10 => T.IN1
+G20 <= G20.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ks24|layer16:u_l16|gray_cell:g_high[21].inst
+G21 => G20.IN1
+P21 => T.IN0
+G10 => T.IN1
+G20 <= G20.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ks24|layer16:u_l16|gray_cell:g_high[22].inst
+G21 => G20.IN1
+P21 => T.IN0
+G10 => T.IN1
+G20 <= G20.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ks24|layer16:u_l16|gray_cell:g_high[23].inst
+G21 => G20.IN1
+P21 => T.IN0
+G10 => T.IN1
+G20 <= G20.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ks24|layer16:u_l16|gray_cell:g_high[24].inst
+G21 => G20.IN1
+P21 => T.IN0
+G10 => T.IN1
+G20 <= G20.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ks24|layer16:u_l16|gray_cell:g_high[25].inst
+G21 => G20.IN1
+P21 => T.IN0
+G10 => T.IN1
+G20 <= G20.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ks24|layer16:u_l16|gray_cell:g_high[26].inst
+G21 => G20.IN1
+P21 => T.IN0
+G10 => T.IN1
+G20 <= G20.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ks24|layer16:u_l16|gray_cell:g_high[27].inst
+G21 => G20.IN1
+P21 => T.IN0
+G10 => T.IN1
+G20 <= G20.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ks24|layer16:u_l16|buffer:p_out[16].pbuf
+A => Y.DATAIN
+Y <= A.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ks24|layer16:u_l16|buffer:p_out[17].pbuf
+A => Y.DATAIN
+Y <= A.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ks24|layer16:u_l16|buffer:p_out[18].pbuf
+A => Y.DATAIN
+Y <= A.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ks24|layer16:u_l16|buffer:p_out[19].pbuf
+A => Y.DATAIN
+Y <= A.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ks24|layer16:u_l16|buffer:p_out[20].pbuf
+A => Y.DATAIN
+Y <= A.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ks24|layer16:u_l16|buffer:p_out[21].pbuf
+A => Y.DATAIN
+Y <= A.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ks24|layer16:u_l16|buffer:p_out[22].pbuf
+A => Y.DATAIN
+Y <= A.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ks24|layer16:u_l16|buffer:p_out[23].pbuf
+A => Y.DATAIN
+Y <= A.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ks24|layer16:u_l16|buffer:p_out[24].pbuf
+A => Y.DATAIN
+Y <= A.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ks24|layer16:u_l16|buffer:p_out[25].pbuf
+A => Y.DATAIN
+Y <= A.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ks24|layer16:u_l16|buffer:p_out[26].pbuf
+A => Y.DATAIN
+Y <= A.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ks24|layer16:u_l16|buffer:p_out[27].pbuf
+A => Y.DATAIN
+Y <= A.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ks24|sum_layer:u_sum
+P[0] => SUM.IN0
+P[1] => SUM.IN0
+P[2] => SUM.IN0
+P[3] => SUM.IN0
+P[4] => SUM.IN0
+P[5] => SUM.IN0
+P[6] => SUM.IN0
+P[7] => SUM.IN0
+P[8] => SUM.IN0
+P[9] => SUM.IN0
+P[10] => SUM.IN0
+P[11] => SUM.IN0
+P[12] => SUM.IN0
+P[13] => SUM.IN0
+P[14] => SUM.IN0
+P[15] => SUM.IN0
+P[16] => SUM.IN0
+P[17] => SUM.IN0
+P[18] => SUM.IN0
+P[19] => SUM.IN0
+P[20] => SUM.IN0
+P[21] => SUM.IN0
+P[22] => SUM.IN0
+P[23] => SUM.IN0
+P[24] => SUM.IN0
+P[25] => SUM.IN0
+P[26] => SUM.IN0
+P[27] => SUM.IN0
+C[0] => SUM.IN1
+C[1] => SUM.IN1
+C[2] => SUM.IN1
+C[3] => SUM.IN1
+C[4] => SUM.IN1
+C[5] => SUM.IN1
+C[6] => SUM.IN1
+C[7] => SUM.IN1
+C[8] => SUM.IN1
+C[9] => SUM.IN1
+C[10] => SUM.IN1
+C[11] => SUM.IN1
+C[12] => SUM.IN1
+C[13] => SUM.IN1
+C[14] => SUM.IN1
+C[15] => SUM.IN1
+C[16] => SUM.IN1
+C[17] => SUM.IN1
+C[18] => SUM.IN1
+C[19] => SUM.IN1
+C[20] => SUM.IN1
+C[21] => SUM.IN1
+C[22] => SUM.IN1
+C[23] => SUM.IN1
+C[24] => SUM.IN1
+C[25] => SUM.IN1
+C[26] => SUM.IN1
+C[27] => COUT.DATAIN
+CIN => SUM.IN1
+P23 => ~NO_FANOUT~
+SUM[0] <= SUM.DB_MAX_OUTPUT_PORT_TYPE
+SUM[1] <= SUM.DB_MAX_OUTPUT_PORT_TYPE
+SUM[2] <= SUM.DB_MAX_OUTPUT_PORT_TYPE
+SUM[3] <= SUM.DB_MAX_OUTPUT_PORT_TYPE
+SUM[4] <= SUM.DB_MAX_OUTPUT_PORT_TYPE
+SUM[5] <= SUM.DB_MAX_OUTPUT_PORT_TYPE
+SUM[6] <= SUM.DB_MAX_OUTPUT_PORT_TYPE
+SUM[7] <= SUM.DB_MAX_OUTPUT_PORT_TYPE
+SUM[8] <= SUM.DB_MAX_OUTPUT_PORT_TYPE
+SUM[9] <= SUM.DB_MAX_OUTPUT_PORT_TYPE
+SUM[10] <= SUM.DB_MAX_OUTPUT_PORT_TYPE
+SUM[11] <= SUM.DB_MAX_OUTPUT_PORT_TYPE
+SUM[12] <= SUM.DB_MAX_OUTPUT_PORT_TYPE
+SUM[13] <= SUM.DB_MAX_OUTPUT_PORT_TYPE
+SUM[14] <= SUM.DB_MAX_OUTPUT_PORT_TYPE
+SUM[15] <= SUM.DB_MAX_OUTPUT_PORT_TYPE
+SUM[16] <= SUM.DB_MAX_OUTPUT_PORT_TYPE
+SUM[17] <= SUM.DB_MAX_OUTPUT_PORT_TYPE
+SUM[18] <= SUM.DB_MAX_OUTPUT_PORT_TYPE
+SUM[19] <= SUM.DB_MAX_OUTPUT_PORT_TYPE
+SUM[20] <= SUM.DB_MAX_OUTPUT_PORT_TYPE
+SUM[21] <= SUM.DB_MAX_OUTPUT_PORT_TYPE
+SUM[22] <= SUM.DB_MAX_OUTPUT_PORT_TYPE
+SUM[23] <= SUM.DB_MAX_OUTPUT_PORT_TYPE
+SUM[24] <= SUM.DB_MAX_OUTPUT_PORT_TYPE
+SUM[25] <= SUM.DB_MAX_OUTPUT_PORT_TYPE
+SUM[26] <= SUM.DB_MAX_OUTPUT_PORT_TYPE
+SUM[27] <= SUM.DB_MAX_OUTPUT_PORT_TYPE
+COUT <= C[27].DB_MAX_OUTPUT_PORT_TYPE
+
+

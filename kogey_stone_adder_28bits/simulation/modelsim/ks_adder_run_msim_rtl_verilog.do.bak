@@ -1,0 +1,27 @@
+transcript on
+if {[file exists rtl_work]} {
+	vdel -lib rtl_work -all
+}
+vlib rtl_work
+vmap work rtl_work
+
+vlog -vlog01compat -work work +incdir+C:/Users/DELL/Downloads/kogey_stone_adder {C:/Users/DELL/Downloads/kogey_stone_adder/sum_layer.v}
+vlog -vlog01compat -work work +incdir+C:/Users/DELL/Downloads/kogey_stone_adder {C:/Users/DELL/Downloads/kogey_stone_adder/pg_gen.v}
+vlog -vlog01compat -work work +incdir+C:/Users/DELL/Downloads/kogey_stone_adder {C:/Users/DELL/Downloads/kogey_stone_adder/layer8.v}
+vlog -vlog01compat -work work +incdir+C:/Users/DELL/Downloads/kogey_stone_adder {C:/Users/DELL/Downloads/kogey_stone_adder/layer4.v}
+vlog -vlog01compat -work work +incdir+C:/Users/DELL/Downloads/kogey_stone_adder {C:/Users/DELL/Downloads/kogey_stone_adder/layer2.v}
+vlog -vlog01compat -work work +incdir+C:/Users/DELL/Downloads/kogey_stone_adder {C:/Users/DELL/Downloads/kogey_stone_adder/layer1.v}
+vlog -vlog01compat -work work +incdir+C:/Users/DELL/Downloads/kogey_stone_adder {C:/Users/DELL/Downloads/kogey_stone_adder/layer_pg.v}
+vlog -vlog01compat -work work +incdir+C:/Users/DELL/Downloads/kogey_stone_adder {C:/Users/DELL/Downloads/kogey_stone_adder/ks16.v}
+vlog -vlog01compat -work work +incdir+C:/Users/DELL/Downloads/kogey_stone_adder {C:/Users/DELL/Downloads/kogey_stone_adder/gray_cell.v}
+vlog -vlog01compat -work work +incdir+C:/Users/DELL/Downloads/kogey_stone_adder {C:/Users/DELL/Downloads/kogey_stone_adder/buffer.v}
+vlog -vlog01compat -work work +incdir+C:/Users/DELL/Downloads/kogey_stone_adder {C:/Users/DELL/Downloads/kogey_stone_adder/black_cell.v}
+
+vlog -vlog01compat -work work +incdir+C:/Users/DELL/Downloads/kogey_stone_adder {C:/Users/DELL/Downloads/kogey_stone_adder/ks16_TB.v}
+
+vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L fiftyfivenm_ver -L rtl_work -L work -voptargs="+acc"  ks16
+
+add wave *
+view structure
+view signals
+run -all

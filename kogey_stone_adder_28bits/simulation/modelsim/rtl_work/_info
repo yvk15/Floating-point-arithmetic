@@ -1,0 +1,324 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/HP/Downloads/kogey_stone_adder/kogey_stone_adder/simulation/modelsim
+vblack_cell
+Z1 !s110 1764077451
+!i10b 1
+!s100 lJO;9m]CF0Rz7F;f0L:lN1
+Z2 !s11b Dg1SIo80bB@j0V0VzS_@n1
+In4UZlNKBQ8@Y[cS9Xk3990
+Z3 VDg1SIo80bB@j0V0VzS_@n1
+R0
+Z4 w1764006897
+8C:/Users/HP/Downloads/kogey_stone_adder/kogey_stone_adder/black_cell.v
+FC:/Users/HP/Downloads/kogey_stone_adder/kogey_stone_adder/black_cell.v
+!i122 9
+L0 1 9
+Z5 OV;L;2020.1;71
+r1
+!s85 0
+31
+Z6 !s108 1764077451.000000
+!s107 C:/Users/HP/Downloads/kogey_stone_adder/kogey_stone_adder/black_cell.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/HP/Downloads/kogey_stone_adder/kogey_stone_adder|C:/Users/HP/Downloads/kogey_stone_adder/kogey_stone_adder/black_cell.v|
+!i113 1
+Z7 o-vlog01compat -work work
+Z8 !s92 -vlog01compat -work work +incdir+C:/Users/HP/Downloads/kogey_stone_adder/kogey_stone_adder
+Z9 tCvgOpt 0
+vbuffer
+R1
+!i10b 1
+!s100 kl9nlgSS_Zn2aW[09TUck2
+R2
+IcTIia_cCU:2HAb=PG=74M3
+R3
+R0
+R4
+8C:/Users/HP/Downloads/kogey_stone_adder/kogey_stone_adder/buffer.v
+FC:/Users/HP/Downloads/kogey_stone_adder/kogey_stone_adder/buffer.v
+!i122 8
+Z10 L0 1 8
+R5
+r1
+!s85 0
+31
+R6
+!s107 C:/Users/HP/Downloads/kogey_stone_adder/kogey_stone_adder/buffer.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/HP/Downloads/kogey_stone_adder/kogey_stone_adder|C:/Users/HP/Downloads/kogey_stone_adder/kogey_stone_adder/buffer.v|
+!i113 1
+R7
+R8
+R9
+vgray_cell
+R1
+!i10b 1
+!s100 o:TdoncV2=Qg0ao`j2eze0
+R2
+I4z]H;UlonSI1?2;F`[V:W1
+R3
+R0
+R4
+8C:/Users/HP/Downloads/kogey_stone_adder/kogey_stone_adder/gray_cell.v
+FC:/Users/HP/Downloads/kogey_stone_adder/kogey_stone_adder/gray_cell.v
+!i122 7
+R10
+R5
+r1
+!s85 0
+31
+Z11 !s108 1764077450.000000
+!s107 C:/Users/HP/Downloads/kogey_stone_adder/kogey_stone_adder/gray_cell.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/HP/Downloads/kogey_stone_adder/kogey_stone_adder|C:/Users/HP/Downloads/kogey_stone_adder/kogey_stone_adder/gray_cell.v|
+!i113 1
+R7
+R8
+R9
+vks24
+R1
+!i10b 1
+!s100 :Z>R]^dj19g4bC7J?`E4S1
+R2
+I0]@eUIO0=S;M8EGIPN]=71
+R3
+R0
+Z12 w1764071699
+8C:/Users/HP/Downloads/kogey_stone_adder/kogey_stone_adder/ks24.v
+FC:/Users/HP/Downloads/kogey_stone_adder/kogey_stone_adder/ks24.v
+!i122 11
+L0 3 136
+R5
+r1
+!s85 0
+31
+R6
+!s107 C:/Users/HP/Downloads/kogey_stone_adder/kogey_stone_adder/ks24.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/HP/Downloads/kogey_stone_adder/kogey_stone_adder|C:/Users/HP/Downloads/kogey_stone_adder/kogey_stone_adder/ks24.v|
+!i113 1
+R7
+R8
+R9
+vks24_TB
+!s110 1764077452
+!i10b 1
+!s100 ^QakgDCkzRejI3zWXU6Z;0
+R2
+I4nz2?VO<zInAGUdZ^<<>`0
+R3
+R0
+w1764076947
+8C:/Users/HP/Downloads/kogey_stone_adder/kogey_stone_adder/ks24_TB.v
+FC:/Users/HP/Downloads/kogey_stone_adder/kogey_stone_adder/ks24_TB.v
+!i122 12
+L0 3 89
+R5
+r1
+!s85 0
+31
+R6
+!s107 C:/Users/HP/Downloads/kogey_stone_adder/kogey_stone_adder/ks24_TB.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/HP/Downloads/kogey_stone_adder/kogey_stone_adder|C:/Users/HP/Downloads/kogey_stone_adder/kogey_stone_adder/ks24_TB.v|
+!i113 1
+R7
+R8
+R9
+nks24_@t@b
+vlayer1
+Z13 !s110 1764077450
+!i10b 1
+!s100 A5DPF25VSI3:Y@2n8`PH82
+R2
+Igo0@hiiJU@DeM1l;TNTZR2
+R3
+R0
+Z14 w1764064791
+8C:/Users/HP/Downloads/kogey_stone_adder/kogey_stone_adder/layer1.v
+FC:/Users/HP/Downloads/kogey_stone_adder/kogey_stone_adder/layer1.v
+!i122 5
+L0 1 33
+R5
+r1
+!s85 0
+31
+R11
+!s107 C:/Users/HP/Downloads/kogey_stone_adder/kogey_stone_adder/layer1.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/HP/Downloads/kogey_stone_adder/kogey_stone_adder|C:/Users/HP/Downloads/kogey_stone_adder/kogey_stone_adder/layer1.v|
+!i113 1
+R7
+R8
+R9
+vlayer16
+R1
+!i10b 1
+!s100 3XkQ]45noMEf7Tzb;SkkA0
+R2
+I1[dno46F7@jaN1gdRQLbG2
+R3
+R0
+R12
+8C:/Users/HP/Downloads/kogey_stone_adder/kogey_stone_adder/layer16.v
+FC:/Users/HP/Downloads/kogey_stone_adder/kogey_stone_adder/layer16.v
+!i122 10
+L0 1 59
+R5
+r1
+!s85 0
+31
+R6
+!s107 C:/Users/HP/Downloads/kogey_stone_adder/kogey_stone_adder/layer16.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/HP/Downloads/kogey_stone_adder/kogey_stone_adder|C:/Users/HP/Downloads/kogey_stone_adder/kogey_stone_adder/layer16.v|
+!i113 1
+R7
+R8
+R9
+vlayer2
+R13
+!i10b 1
+!s100 WZ00GW;]9U]lJJTA9>5Q13
+R2
+InT85_LMbdOREGVn?0eeeI0
+R3
+R0
+R14
+8C:/Users/HP/Downloads/kogey_stone_adder/kogey_stone_adder/layer2.v
+FC:/Users/HP/Downloads/kogey_stone_adder/kogey_stone_adder/layer2.v
+!i122 4
+L0 1 46
+R5
+r1
+!s85 0
+31
+R11
+!s107 C:/Users/HP/Downloads/kogey_stone_adder/kogey_stone_adder/layer2.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/HP/Downloads/kogey_stone_adder/kogey_stone_adder|C:/Users/HP/Downloads/kogey_stone_adder/kogey_stone_adder/layer2.v|
+!i113 1
+R7
+R8
+R9
+vlayer4
+R13
+!i10b 1
+!s100 m4@BdjYMi@Wh?U[FNMDRa1
+R2
+IZk560mXkVE9zmzbY7;kC03
+R3
+R0
+R12
+8C:/Users/HP/Downloads/kogey_stone_adder/kogey_stone_adder/layer4.v
+FC:/Users/HP/Downloads/kogey_stone_adder/kogey_stone_adder/layer4.v
+!i122 3
+L0 1 57
+R5
+r1
+!s85 0
+31
+R11
+!s107 C:/Users/HP/Downloads/kogey_stone_adder/kogey_stone_adder/layer4.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/HP/Downloads/kogey_stone_adder/kogey_stone_adder|C:/Users/HP/Downloads/kogey_stone_adder/kogey_stone_adder/layer4.v|
+!i113 1
+R7
+R8
+R9
+vlayer8
+R13
+!i10b 1
+!s100 KLLjPg73KCzE`5D`iX`VD0
+R2
+Ic;SkIbLP3JHQP]zdaB>^01
+R3
+R0
+w1764071698
+8C:/Users/HP/Downloads/kogey_stone_adder/kogey_stone_adder/layer8.v
+FC:/Users/HP/Downloads/kogey_stone_adder/kogey_stone_adder/layer8.v
+!i122 2
+L0 2 70
+R5
+r1
+!s85 0
+31
+Z15 !s108 1764077449.000000
+!s107 C:/Users/HP/Downloads/kogey_stone_adder/kogey_stone_adder/layer8.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/HP/Downloads/kogey_stone_adder/kogey_stone_adder|C:/Users/HP/Downloads/kogey_stone_adder/kogey_stone_adder/layer8.v|
+!i113 1
+R7
+R8
+R9
+vlayer_pg
+R13
+!i10b 1
+!s100 ASiQ0J[Pn[8A>a>5JOzA51
+R2
+IHYI;zFnDI^ZU8f79alUUh2
+R3
+R0
+R14
+8C:/Users/HP/Downloads/kogey_stone_adder/kogey_stone_adder/layer_pg.v
+FC:/Users/HP/Downloads/kogey_stone_adder/kogey_stone_adder/layer_pg.v
+!i122 6
+L0 4 16
+R5
+r1
+!s85 0
+31
+R11
+!s107 C:/Users/HP/Downloads/kogey_stone_adder/kogey_stone_adder/layer_pg.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/HP/Downloads/kogey_stone_adder/kogey_stone_adder|C:/Users/HP/Downloads/kogey_stone_adder/kogey_stone_adder/layer_pg.v|
+!i113 1
+R7
+R8
+R9
+vpg_gen
+Z16 !s110 1764077449
+!i10b 1
+!s100 fAWO7Re6<UfHUJT`17Ji^3
+R2
+I3Io>Tzl@Q^bbNDVCDX_`=0
+R3
+R0
+w1764014029
+8C:/Users/HP/Downloads/kogey_stone_adder/kogey_stone_adder/pg_gen.v
+FC:/Users/HP/Downloads/kogey_stone_adder/kogey_stone_adder/pg_gen.v
+!i122 1
+L0 2 7
+R5
+r1
+!s85 0
+31
+R15
+!s107 C:/Users/HP/Downloads/kogey_stone_adder/kogey_stone_adder/pg_gen.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/HP/Downloads/kogey_stone_adder/kogey_stone_adder|C:/Users/HP/Downloads/kogey_stone_adder/kogey_stone_adder/pg_gen.v|
+!i113 1
+R7
+R8
+R9
+vsum_layer
+R16
+!i10b 1
+!s100 1U_^aBzkEoJjMGW^dWT^E2
+R2
+I>R_P6dPIA8glgF1n78Cj93
+R3
+R0
+w1764067215
+8C:/Users/HP/Downloads/kogey_stone_adder/kogey_stone_adder/sum_layer.v
+FC:/Users/HP/Downloads/kogey_stone_adder/kogey_stone_adder/sum_layer.v
+!i122 0
+L0 1 37
+R5
+r1
+!s85 0
+31
+R15
+!s107 C:/Users/HP/Downloads/kogey_stone_adder/kogey_stone_adder/sum_layer.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/HP/Downloads/kogey_stone_adder/kogey_stone_adder|C:/Users/HP/Downloads/kogey_stone_adder/kogey_stone_adder/sum_layer.v|
+!i113 1
+R7
+R8
+R9

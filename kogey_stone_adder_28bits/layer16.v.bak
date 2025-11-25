@@ -1,0 +1,59 @@
+module layer16(P, G, CIN, OUTG16, OUTP16, CIN16);
+    input [23:0] G;
+    input [23:16] P;   // P[16] to P[23]
+    input CIN;
+
+    output CIN16;
+    output [23:0] OUTG16;
+    output [23:16] OUTP16;
+
+    // Pass CIN forward
+    buffer b1(
+        .A(CIN),
+        .Y(CIN16)
+    );
+
+    // Bits 0–15 have no prefix with i-16, so copy G directly
+    genvar k;
+    generate
+        for(k = 0; k < 16; k = k + 1) begin : buffer_loop
+            buffer inst1(
+                .A(G[k]),
+                .Y(OUTG16[k])
+            );
+        end
+    endgenerate
+
+    // Gray cell for bit 16
+    gray_cell gc16(
+        .G21(G[16]),
+        .P21(P[16]),
+        .G10(CIN),          // G[0-1??] = CIN
+        .G20(OUTG16[16])
+    );
+
+    // Gray cells for bits 17–23 (prefix with i-16)
+    genvar j;
+    generate
+        for(j = 17; j < 24; j = j + 1) begin : gray_cell_loop
+            gray_cell inst(
+                .G21(G[j]),
+                .P21(P[j]),
+                .G10(G[j-16]),
+                .G20(OUTG16[j])
+            );
+        end
+    endgenerate
+
+    // Propagate outputs only for bits 16–23
+    genvar m;
+    generate
+        for(m = 16; m < 24; m = m + 1) begin : p_out_loop
+            buffer pbuf(
+                .A(P[m]),
+                .Y(OUTP16[m])
+            );
+        end
+    endgenerate
+
+endmodule

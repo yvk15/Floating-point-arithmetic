@@ -1,0 +1,123 @@
+module ks24(A, B, CIN, CLK, RST_N, SUM, COUT);
+
+    input [23:0] A, B;
+    input CIN, CLK, RST_N;
+    output [23:0] SUM;
+    output COUT;
+
+    // Input register = A(24) + B(24) + CIN(1) = 49 bits
+    reg [48:0] INPUT_REG;
+
+    // Output register = SUM(24) + COUT(1) = 25 bits
+    reg [24:0] OUTPUT_REG;
+
+    wire [24:0] OUT_WIRE;
+
+    // Prefix stage wires (24-bit widths)
+    wire [23:0] T0P, T0G, T1G, T2G, T3G, T4G;
+    wire [23:1] T1P;
+    wire [23:3] T2P;
+    wire [23:7] T3P;
+    wire        P23;        // last propagate bit for sum layer
+
+    wire C1, C2, C4, C8, C16;
+
+    // -----------------------------
+    // Stage 0: Generate P and G bits
+    // -----------------------------
+    layer_pg inst1(
+        .A(INPUT_REG[48:25]),   // A[23:0]
+        .B(INPUT_REG[24:1]),    // B[23:0]
+        .P_OUT(T0P),
+        .G_OUT(T0G)
+    );
+
+    // -----------------------------
+    // Stage 1: Span = 1
+    // -----------------------------
+    layer1 l1(
+        .P(T0P),
+        .G(T0G),
+        .CIN(CIN),
+        .OUTP1(T1P),
+        .OUTG1(T1G),
+        .CIN1(C1)
+    );
+
+    // -----------------------------
+    // Stage 2: Span = 2
+    // -----------------------------
+    layer2 l2(
+        .P(T1P),
+        .G(T1G),
+        .CIN(C1),
+        .OUTP2(T2P),
+        .OUTG2(T2G),
+        .CIN2(C2)
+    );
+
+    // -----------------------------
+    // Stage 4: Span = 4
+    // -----------------------------
+    layer4 l4(
+        .P(T2P),
+        .G(T2G),
+        .CIN(C2),
+        .OUTP4(T3P),
+        .OUTG4(T3G),
+        .CIN4(C4)
+    );
+
+    // -----------------------------
+    // Stage 8: Span = 8
+    // -----------------------------
+    layer8 l8(
+        .P(T3P),
+        .G(T3G),
+        .CIN(C4),
+        .OUTG8(T4G),
+        .OUTP8(P23),
+        .CIN8(C8)
+    );
+
+    // -----------------------------
+    // Stage 16: Span = 16  (LAST STAGE FOR 24-bit)
+    // -----------------------------
+    layer16 l16(
+        .P(T3P),      // or T4P depending on your structure
+        .G(T4G),
+        .CIN(C8),
+        .OUTG16(C),
+        .OUTP16(),
+        .CIN16(C16)
+    );
+
+    // -----------------------------
+    // SUM LAYER
+    // -----------------------------
+    sum_layer s1(
+        .P(T0P),
+        .C(C),
+        .P23(P23),
+        .CIN(INPUT_REG[0]),
+        .SUM(OUT_WIRE[23:0]),
+        .COUT(OUT_WIRE[24])
+    );s
+
+    // -----------------------------
+    // PIPELINED REGISTERS
+    // -----------------------------
+    always @ (posedge CLK or negedge RST_N) begin
+        if (!RST_N) begin
+            INPUT_REG  <= 49'b0;
+            OUTPUT_REG <= 25'b0;
+        end
+        else begin
+            INPUT_REG  <= {A, B, CIN};
+            OUTPUT_REG <= OUT_WIRE;
+        end
+    end
+
+    assign {COUT, SUM} = OUTPUT_REG;
+
+endmodule

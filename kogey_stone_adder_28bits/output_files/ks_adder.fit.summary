@@ -1,0 +1,18 @@
+Fitter Status : Successful - Tue Nov 25 17:21:35 2025
+Quartus Prime Version : 20.1.1 Build 720 11/11/2020 SJ Lite Edition
+Revision Name : ks_adder
+Top-level Entity Name : ks24
+Family : MAX 10
+Device : 10M08DAF484C8G
+Timing Models : Final
+Total logic elements : 192 / 8,064 ( 2 % )
+    Total combinational functions : 181 / 8,064 ( 2 % )
+    Dedicated logic registers : 86 / 8,064 ( 1 % )
+Total registers : 86
+Total pins : 88 / 250 ( 35 % )
+Total virtual pins : 0
+Total memory bits : 0 / 387,072 ( 0 % )
+Embedded Multiplier 9-bit elements : 0 / 48 ( 0 % )
+Total PLLs : 0 / 2 ( 0 % )
+UFM blocks : 0 / 1 ( 0 % )
+ADC blocks : 0 / 1 ( 0 % )

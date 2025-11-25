@@ -1,0 +1,77 @@
+`timescale 1ns/100ps
+
+module ks24_TB;
+
+    reg CLK, RST_N;
+    reg [23:0] A, B;
+    reg CIN;
+
+    wire [23:0] SUM;
+    wire COUT;
+
+    // DUT Instance — change module name if needed
+    ks24 dut(
+        .A(A),
+        .B(B),
+        .CIN(CIN),
+        .CLK(CLK),
+        .RST_N(RST_N),
+        .SUM(SUM),
+        .COUT(COUT)
+    );
+
+    // Clock Generation: 10ns period
+    always #5 CLK = ~CLK;
+
+    initial begin
+        $dumpfile("ks24_waveforms.vcd");
+        $dumpvars(0, ks24_TB);
+
+        $monitor($time,
+                 " CLK=%b | RST_N=%b | A=%h | B=%h | CIN=%b | SUM=%h | COUT=%b",
+                 CLK, RST_N, A, B, CIN, SUM, COUT);
+
+        // Initialization
+        CLK = 1'b0;
+        RST_N = 1'b0;
+        A = 24'h000000;
+        B = 24'h000000;
+        CIN = 1'b0;
+
+        // Release Reset
+        #20 RST_N = 1'b1;
+
+        // -------------------------
+        // Test Vector 1
+        // -------------------------
+        #10 A = 24'h111111;
+            B = 24'h222222;
+            CIN = 1'b1;
+
+        // -------------------------
+        // Test Vector 2
+        // -------------------------
+        #20 A = 24'hFFFFFF;
+            B = 24'hFFFFFF;
+            CIN = 1'b1;
+
+        // -------------------------
+        // Test Vector 3
+        // -------------------------
+        #20 A = 24'hFFFFFF;
+            B = 24'h000000;
+            CIN = 1'b1;
+
+        // -------------------------
+        // Randomized Tests
+        // -------------------------
+        repeat(10) begin
+            #20 A   = $random;
+                 B   = $random;
+                 CIN = $random;
+        end
+
+        #20 $finish;
+    end
+
+endmodule
